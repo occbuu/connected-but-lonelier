@@ -1,0 +1,18 @@
+# Runtime, raw microdata and large processed inputs
+.venv/
+__pycache__/
+*.pyc
+data/raw/pisa*/
+outputs/*.parquet
+outputs/*.log
+latex/.latex-cache/
+*.aux
+*.log
+*.out
+*.bcf
+*.run.xml
+*.blg
+*.fdb_latexmk
+*.fls
+publish_repository/
+*.zip

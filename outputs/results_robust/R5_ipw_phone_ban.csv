@@ -1,0 +1,7 @@
+outcome,spec,coef,se,p,n
+DIGDIST,unadjusted,-0.0821,0.0115,0.0,44713
+DIGDIST,IPW + controls,-0.0836,0.0115,0.0,44589
+ANXMAT,unadjusted,-0.017,0.0144,0.2404,53700
+ANXMAT,IPW + controls,-0.0201,0.013,0.1223,53501
+MATH,unadjusted,-4.6684,2.9556,0.1142,86114
+MATH,IPW + controls,-1.9093,2.4296,0.432,85299

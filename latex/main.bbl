@@ -1,0 +1,3349 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{allen2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a0e76fd24405c50f075c5687dcf2f787}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Kelly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4fc8aaef9c06fc427673a3eb49dbf0b}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Margaret\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c36352a3b029be389c9f494c6d761364}{%
+           family={Vella-Brodrick},
+           familyi={V\bibinithyphendelim B\bibinitperiod},
+           given={Dianne},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7251c15733701c65025dabbf16656e4}{%
+           family={Hattie},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2930428360cbce3feae74f5b17e2aeb5}{%
+           family={Waters},
+           familyi={W\bibinitperiod},
+           given={Lea},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34df2113b9d87f85ca64e83e74bdf695}
+      \strng{fullhash}{9134f2a663942930708d53f572489a17}
+      \strng{fullhashraw}{9134f2a663942930708d53f572489a17}
+      \strng{bibnamehash}{9134f2a663942930708d53f572489a17}
+      \strng{authorbibnamehash}{9134f2a663942930708d53f572489a17}
+      \strng{authornamehash}{34df2113b9d87f85ca64e83e74bdf695}
+      \strng{authorfullhash}{9134f2a663942930708d53f572489a17}
+      \strng{authorfullhashraw}{9134f2a663942930708d53f572489a17}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Psychology Review}
+      \field{number}{1}
+      \field{title}{What schools need to know about fostering school belonging: A meta-analysis}
+      \field{volume}{30}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 34}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/s10648-016-9389-8
+      \endverb
+    \endentry
+    \entry{baumeister1995}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a4cf150af4a1fd87dfd43878dfe9ec82}{%
+           family={Baumeister},
+           familyi={B\bibinitperiod},
+           given={Roy\bibnamedelima F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79b7345cfec430f8072ffaeac71b0e1c}{%
+           family={Leary},
+           familyi={L\bibinitperiod},
+           given={Mark\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{fullhash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{fullhashraw}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{bibnamehash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{authorbibnamehash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{authornamehash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{authorfullhash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{authorfullhashraw}{6c3015cce88097a5848293d25cdd9cde}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{3}
+      \field{title}{The need to belong: Desire for interpersonal attachments as a fundamental human motivation}
+      \field{volume}{117}
+      \field{year}{1995}
+      \field{pages}{497\bibrangedash 529}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1037/0033-2909.117.3.497
+      \endverb
+    \endentry
+    \entry{beland2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=898c898593098a5c98513cc8bef09e71}{%
+           family={Beland},
+           familyi={B\bibinitperiod},
+           given={Louis-Philippe},
+           giveni={L\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62a04175b6e46f6b75cb08c2a98e7682}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{fullhash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{fullhashraw}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{bibnamehash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{authorbibnamehash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{authornamehash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{authorfullhash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{authorfullhashraw}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Labour Economics}
+      \field{title}{Ill communication: Technology, distraction \& student performance}
+      \field{volume}{41}
+      \field{year}{2016}
+      \field{pages}{61\bibrangedash 76}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.labeco.2016.04.004
+      \endverb
+    \endentry
+    \entry{benjamini1995}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2bf06df9b6fb1b6a6811f2965ef58db2}{%
+           family={Benjamini},
+           familyi={B\bibinitperiod},
+           given={Yoav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=486dfb83d695169656e5706b50266208}{%
+           family={Hochberg},
+           familyi={H\bibinitperiod},
+           given={Yosef},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{fullhash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{fullhashraw}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{bibnamehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authorbibnamehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authornamehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authorfullhash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authorfullhashraw}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Statistical Society Series B: Statistical Methodology}
+      \field{number}{1}
+      \field{title}{Controlling the false discovery rate: A practical and powerful approach to multiple testing}
+      \field{volume}{57}
+      \field{year}{1995}
+      \field{pages}{289\bibrangedash 300}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.2517-6161.1995.tb02031.x
+      \endverb
+    \endentry
+    \entry{bottger2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dc2adc36e4b6dfc02452009a6782b3e2}{%
+           family={Böttger},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a406f9850b406d95516ef721af8c2b7}{%
+           family={Poschik},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=195539698d56c5c4e33fbd569b494d95}{%
+           family={Zierer},
+           familyi={Z\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f605408be6681345d1d789e17013318a}
+      \strng{fullhash}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{fullhashraw}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{bibnamehash}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{authorbibnamehash}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{authornamehash}{f605408be6681345d1d789e17013318a}
+      \strng{authorfullhash}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{authorfullhashraw}{94e29dbdb4aa5416bec6386c3360b031}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral Sciences}
+      \field{number}{9}
+      \field{title}{Does the brain drain effect really exist? A meta-analysis}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{751}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/bs13090751
+      \endverb
+    \endentry
+    \entry{chen2007}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=47bbebb70dc480deb9258681501dd0fe}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fang\bibnamedelima Fang},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{fullhash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{fullhashraw}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{bibnamehash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{authorbibnamehash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{authornamehash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{authorfullhash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{authorfullhashraw}{47bbebb70dc480deb9258681501dd0fe}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Structural Equation Modeling: A Multidisciplinary Journal}
+      \field{number}{3}
+      \field{title}{Sensitivity of goodness of fit indexes to lack of measurement invariance}
+      \field{volume}{14}
+      \field{year}{2007}
+      \field{pages}{464\bibrangedash 504}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1080/10705510701301834
+      \endverb
+    \endentry
+    \entry{dang2020}{report}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4267b0cac760f6ae79e2bfeb89b29857}{%
+           family={Dang},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19b077014aa29b6a61a6b48e6ee49f26}{%
+           family={Glewwe},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a38fe2282e0ae708270c02346a36d08f}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a4d70d5522a088d5224d4a047fa89d}{%
+           family={Vu},
+           familyi={V\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Research on Improving Systems of Education (RISE)}%
+      }
+      \strng{namehash}{d442782b8bdc14fb27800504e0118f31}
+      \strng{fullhash}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{fullhashraw}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{bibnamehash}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{authorbibnamehash}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{authornamehash}{d442782b8bdc14fb27800504e0118f31}
+      \strng{authorfullhash}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{authorfullhashraw}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{20/036}
+      \field{title}{What explains {Vietnam}’s exceptional performance in education relative to other countries? Analysis of the 2012 and 2015 {PISA} data}
+      \field{type}{Working Paper}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.35489/BSG-RISE-WP_2020/036
+      \endverb
+    \endentry
+    \entry{dinardo1996}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fd181f4907967a69be096ed4605f8946}{%
+           family={DiNardo},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7b71756f3a3c79229d749a8f1630a0a}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={Nicole\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=261b3be4ecb61f279cdbd85e8fcdcc32}{%
+           family={Lemieux},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ec58924af8569255075aab9b6fbf52e}
+      \strng{fullhash}{d5e15888119773f722668e4884265545}
+      \strng{fullhashraw}{d5e15888119773f722668e4884265545}
+      \strng{bibnamehash}{d5e15888119773f722668e4884265545}
+      \strng{authorbibnamehash}{d5e15888119773f722668e4884265545}
+      \strng{authornamehash}{0ec58924af8569255075aab9b6fbf52e}
+      \strng{authorfullhash}{d5e15888119773f722668e4884265545}
+      \strng{authorfullhashraw}{d5e15888119773f722668e4884265545}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{5}
+      \field{title}{Labor market institutions and the distribution of wages, 1973-1992: A semiparametric approach}
+      \field{volume}{64}
+      \field{year}{1996}
+      \field{pages}{1001\bibrangedash 1044}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.2307/2171954
+      \endverb
+    \endentry
+    \entry{government2015exam}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a6d2554d66fd0be13f95aba0e76b2b73}{%
+           family={{Government of Viet Nam}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{fullhash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{fullhashraw}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{bibnamehash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{authorbibnamehash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{authornamehash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{authorfullhash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{authorfullhashraw}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Đề thi chung, làm thế nào để bảo đảm phân hóa trình độ thí sinh?}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://chinhsachonline.chinhphu.vn/de-thi-chung-lam-the-nao-de-bao-dam-phan-hoa-trinh-do-thi-sinh-16482.htm
+      \endverb
+      \verb{url}
+      \verb https://chinhsachonline.chinhphu.vn/de-thi-chung-lam-the-nao-de-bao-dam-phan-hoa-trinh-do-thi-sinh-16482.htm
+      \endverb
+    \endentry
+    \entry{ke2017}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=dadd87e1dad07728ce408894042b277e}{%
+           family={Ke},
+           familyi={K\bibinitperiod},
+           given={Guolin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=359e0be87f96079a68d0ebf5355da232}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1cb1c25fa372c0b0885de8a27dc0222}{%
+           family={Finley},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5857cb363d37a3b1ff2c28da6586fc9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Taifeng},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06debc36f6b61a405e8f0da1c7ccd6ca}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a70fde7196864f8be0248eba2f7f29c8}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Weidong},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=162ccfc475d9d2bc1177357e4913f290}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Qiwei},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=716b89cbb7332599ebb33cc58a52f648}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tie-Yan},
+           giveni={T\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cec83448a93ad6a5cdc6f494a8f2dbcb}
+      \strng{fullhash}{138b620984178bfaf960c59da39eb14f}
+      \strng{fullhashraw}{138b620984178bfaf960c59da39eb14f}
+      \strng{bibnamehash}{138b620984178bfaf960c59da39eb14f}
+      \strng{authorbibnamehash}{138b620984178bfaf960c59da39eb14f}
+      \strng{authornamehash}{cec83448a93ad6a5cdc6f494a8f2dbcb}
+      \strng{authorfullhash}{138b620984178bfaf960c59da39eb14f}
+      \strng{authorfullhashraw}{138b620984178bfaf960c59da39eb14f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{{LightGBM}: A highly efficient gradient boosting decision tree}
+      \field{volume}{30}
+      \field{year}{2017}
+      \field{pages}{3146\bibrangedash 3154}
+      \range{pages}{9}
+    \endentry
+    \entry{kenny2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=099479912de6b364738ea0bb3e62b1fb}{%
+           family={Kenny},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67480fb42b868307b06f2d464f1a4dba}{%
+           family={Kaniskan},
+           familyi={K\bibinitperiod},
+           given={Burcu},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f225a5b4e494ef3f6780d0dc61cff48}{%
+           family={McCoach},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi Betsy},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63ab23a15fce6a63ded2443c5d9c2a89}
+      \strng{fullhash}{5d929d13e494999000239735203f3c00}
+      \strng{fullhashraw}{5d929d13e494999000239735203f3c00}
+      \strng{bibnamehash}{5d929d13e494999000239735203f3c00}
+      \strng{authorbibnamehash}{5d929d13e494999000239735203f3c00}
+      \strng{authornamehash}{63ab23a15fce6a63ded2443c5d9c2a89}
+      \strng{authorfullhash}{5d929d13e494999000239735203f3c00}
+      \strng{authorfullhashraw}{5d929d13e494999000239735203f3c00}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sociological Methods \& Research}
+      \field{number}{3}
+      \field{title}{The performance of {RMSEA} in models with small degrees of freedom}
+      \field{volume}{44}
+      \field{year}{2015}
+      \field{pages}{486\bibrangedash 507}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1177/0049124114543236
+      \endverb
+    \endentry
+    \entry{kraut1998}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=032c4671b7e5e01c099dc744741eb99d}{%
+           family={Kraut},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48a504156135bb62b945305e0652a80f}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=209e0aee93869302f54510658478ef86}{%
+           family={Lundmark},
+           familyi={L\bibinitperiod},
+           given={Vicki},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f62210829b711f76695c197fde69a4bf}{%
+           family={Kiesler},
+           familyi={K\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25fb0d052127fc0e373167743d654c5b}{%
+           family={Mukophadhyay},
+           familyi={M\bibinitperiod},
+           given={Tridas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3906411ac810fc07c2448d7c4ed15f3c}{%
+           family={Scherlis},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6fb83a55961abdae28f9571407840dee}
+      \strng{fullhash}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{fullhashraw}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{bibnamehash}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{authorbibnamehash}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{authornamehash}{6fb83a55961abdae28f9571407840dee}
+      \strng{authorfullhash}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{authorfullhashraw}{8f2eea913082a7aa2eedd9375007d5ce}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Psychologist}
+      \field{number}{9}
+      \field{title}{Internet paradox: A social technology that reduces social involvement and psychological well-being?}
+      \field{volume}{53}
+      \field{year}{1998}
+      \field{pages}{1017\bibrangedash 1031}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1037/0003-066X.53.9.1017
+      \endverb
+    \endentry
+    \entry{kuznekoff2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9f6576470d2b317529dc88c8f98140cf}{%
+           family={Kuznekoff},
+           familyi={K\bibinitperiod},
+           given={Jeffrey\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c5b0f930852bba00a4bd69dc6f003bd}{%
+           family={Titsworth},
+           familyi={T\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{fullhash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{fullhashraw}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{bibnamehash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{authorbibnamehash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{authornamehash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{authorfullhash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{authorfullhashraw}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication Education}
+      \field{number}{3}
+      \field{title}{The impact of mobile phone usage on student learning}
+      \field{volume}{62}
+      \field{year}{2013}
+      \field{pages}{233\bibrangedash 252}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1080/03634523.2013.767917
+      \endverb
+    \endentry
+    \entry{lundberg2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2a1075150e1e1dad8127b019f7ca9031}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={Scott\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee964079d93879aaef2382a5fff343d3}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Su-In},
+           giveni={S\bibinithyphendelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{fullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{fullhashraw}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{bibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorbibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authornamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorfullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorfullhashraw}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{A unified approach to interpreting model predictions}
+      \field{volume}{30}
+      \field{year}{2017}
+      \field{pages}{4765\bibrangedash 4774}
+      \range{pages}{10}
+    \endentry
+    \entry{martin2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=31f646ceaf33380e34d4e3973ee39668}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ec69f698afdc107c01ec0c4300e4668}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Siyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0982c91bfd42a54f3a62bac2dcc9fe22}{%
+           family={Haywood},
+           familyi={H\bibinitperiod},
+           given={Katy},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e81a3921d999c1dba3f236c9efb35896}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Kui},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b3d1b1e73d6206437444c3ee007b750b}
+      \strng{fullhash}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{fullhashraw}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{bibnamehash}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{authorbibnamehash}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{authornamehash}{b3d1b1e73d6206437444c3ee007b750b}
+      \strng{authorfullhash}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{authorfullhashraw}{cfccf08e70ed692236403d75b1cdd4a5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Technology Research and Development}
+      \field{title}{Digital distractions in education: A systematic review of research on causes, consequences and prevention strategies}
+      \field{volume}{73}
+      \field{year}{2025}
+      \field{pages}{3423\bibrangedash 3451}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/s11423-025-10550-6
+      \endverb
+    \endentry
+    \entry{mendoza2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=441c73babb95e6c34b42fbdd14960be3}{%
+           family={Mendoza},
+           familyi={M\bibinitperiod},
+           given={Jessica\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbea4544fcfb1c5efec9778db3d24b4a}{%
+           family={Pody},
+           familyi={P\bibinitperiod},
+           given={Benjamin\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f75854ac0ba466ac0e642abacd0ca822}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Seungyeon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d876c9fefacb7a5b1ec7477847798f4}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minsung},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7f1eea92ff667bed7fdb0c7a46fabb}{%
+           family={McDonough},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{69686ae0378ad14fe97bbe44d3caa801}
+      \strng{fullhash}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{fullhashraw}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{bibnamehash}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{authorbibnamehash}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{authornamehash}{69686ae0378ad14fe97bbe44d3caa801}
+      \strng{authorfullhash}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{authorfullhashraw}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{title}{The effect of cellphones on attention and learning: The influences of time, distraction, and nomophobia}
+      \field{volume}{86}
+      \field{year}{2018}
+      \field{pages}{52\bibrangedash 60}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.chb.2018.04.027
+      \endverb
+    \endentry
+    \entry{moet2018curriculum}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6450430d2ed60541488909e4128bfc7f}{%
+           family={{Ministry of Education and Training of Viet Nam}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{fullhash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{fullhashraw}{6450430d2ed60541488909e4128bfc7f}
+      \strng{bibnamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorbibnamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authornamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorfullhash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorfullhashraw}{6450430d2ed60541488909e4128bfc7f}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thông tư 32/2018/{TT-BGDĐT} ban hành chương trình giáo dục phổ thông}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://vbpl.moj.gov.vn/bogiaoducdaotao/Pages/vbpq-toanvan.aspx?ItemID=146721
+      \endverb
+      \verb{url}
+      \verb https://vbpl.moj.gov.vn/bogiaoducdaotao/Pages/vbpq-toanvan.aspx?ItemID=146721
+      \endverb
+    \endentry
+    \entry{moet2020circular32}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6450430d2ed60541488909e4128bfc7f}{%
+           family={{Ministry of Education and Training of Viet Nam}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{fullhash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{fullhashraw}{6450430d2ed60541488909e4128bfc7f}
+      \strng{bibnamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorbibnamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authornamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorfullhash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorfullhashraw}{6450430d2ed60541488909e4128bfc7f}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{15 September 2020; Article 37 on students' use of mobile phones}
+      \field{title}{Thông tư 32/2020/{TT}-{BGDĐT} ban hành Điều lệ trường trung học cơ sở, trường trung học phổ thông và trường phổ thông có nhiều cấp học}
+      \field{year}{2020}
+    \endentry
+    \entry{oecd2009manual}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{{PISA} data analysis manual: {SPSS}}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1787/9789264056275-en
+      \endverb
+    \endentry
+    \entry{oecd2022db}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Student and school questionnaire files}
+      \field{title}{{PISA} 2012, 2015, 2018 and 2022 databases}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.oecd.org/en/data/datasets/pisa-2022-database.html
+      \endverb
+      \verb{url}
+      \verb https://www.oecd.org/en/data/datasets/pisa-2022-database.html
+      \endverb
+    \endentry
+    \entry{oecd2023vol1}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PISA} 2022 results (Volume {I}): The state of learning and equity in education}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1787/53f23881-en
+      \endverb
+    \endentry
+    \entry{oecd2023vol2}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{4}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PISA} 2022 results (Volume {II}): Learning during -- and from -- disruption}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1787/a97db61c-en
+      \endverb
+    \endentry
+    \entry{oecd2024screen}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {OECD Publishing}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{5}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{124}
+      \field{title}{Managing screen time: How to protect and equip students against distraction}
+      \field{type}{{PISA} in Focus}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1787/7c225af4-en
+      \endverb
+    \endentry
+    \entry{orben2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b6fff1711590020cb2477a7597aef651}{%
+           family={Orben},
+           familyi={O\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1514786a115ec4cf5fdb4d9238930b9}{%
+           family={Przybylski},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{fullhash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{fullhashraw}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{bibnamehash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{authorbibnamehash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{authornamehash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{authorfullhash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{authorfullhashraw}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{number}{2}
+      \field{title}{The association between adolescent well-being and digital technology use}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{173\bibrangedash 182}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/s41562-018-0506-1
+      \endverb
+    \endentry
+    \entry{pekrun2006}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3091ca32ef7b0f930e4af4506a5bde9}{%
+           family={Pekrun},
+           familyi={P\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{fullhash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{fullhashraw}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{bibnamehash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{authorbibnamehash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{authornamehash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{authorfullhash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{authorfullhashraw}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Psychology Review}
+      \field{number}{4}
+      \field{title}{The control-value theory of achievement emotions: Assumptions, corollaries, and implications for educational research and practice}
+      \field{volume}{18}
+      \field{year}{2006}
+      \field{pages}{315\bibrangedash 341}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/s10648-006-9029-9
+      \endverb
+    \endentry
+    \entry{przybylski2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e1514786a115ec4cf5fdb4d9238930b9}{%
+           family={Przybylski},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d47a34d4a69dc11246b9ebe4c32c65e4}{%
+           family={Weinstein},
+           familyi={W\bibinitperiod},
+           given={Netta},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{fullhash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{fullhashraw}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{bibnamehash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{authorbibnamehash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{authornamehash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{authorfullhash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{authorfullhashraw}{b27b428033a40c32cdf66212f40b59ba}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Science}
+      \field{number}{2}
+      \field{title}{A large-scale test of the {Goldilocks} hypothesis: Quantifying the relations between digital-screen use and the mental well-being of adolescents}
+      \field{volume}{28}
+      \field{year}{2017}
+      \field{pages}{204\bibrangedash 215}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1177/0956797616678438
+      \endverb
+    \endentry
+    \entry{putnick2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e620b53a2e2c2bbae4f679fb9cf2fcb7}{%
+           family={Putnick},
+           familyi={P\bibinitperiod},
+           given={Diane\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dffedb1628df0bc7620faad228a813da}{%
+           family={Bornstein},
+           familyi={B\bibinitperiod},
+           given={Marc\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{fullhash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{fullhashraw}{c71070c175ebe44796d21bc2433d0724}
+      \strng{bibnamehash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{authorbibnamehash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{authornamehash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{authorfullhash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{authorfullhashraw}{c71070c175ebe44796d21bc2433d0724}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Developmental Review}
+      \field{title}{Measurement invariance conventions and reporting: The state of the art and future directions for psychological research}
+      \field{volume}{41}
+      \field{year}{2016}
+      \field{pages}{71\bibrangedash 90}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.dr.2016.06.004
+      \endverb
+    \endentry
+    \entry{rosenbaum1983}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=76aff98876d07e1fb68423227df64bff}{%
+           family={ROSENBAUM},
+           familyi={R\bibinitperiod},
+           given={PAUL\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7c61102e517f41410aea5988ff2a34c}{%
+           family={RUBIN},
+           familyi={R\bibinitperiod},
+           given={DONALD\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{fullhash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{fullhashraw}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{bibnamehash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{authorbibnamehash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{authornamehash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{authorfullhash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{authorfullhashraw}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{1}
+      \field{title}{The central role of the propensity score in observational studies for causal effects}
+      \field{volume}{70}
+      \field{year}{1983}
+      \field{pages}{41\bibrangedash 55}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1093/biomet/70.1.41
+      \endverb
+    \endentry
+    \entry{rubin1987}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=49a367b6280de8a239f8bbdd573f996f}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{fullhash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{fullhashraw}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{bibnamehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authorbibnamehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authornamehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authorfullhash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authorfullhashraw}{49a367b6280de8a239f8bbdd573f996f}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multiple imputation for nonresponse in surveys}
+      \field{year}{1987}
+    \endentry
+    \entry{sweller1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9612a12907a8ce45293ceed61ce5e09b}{%
+           family={Sweller},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{bibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorbibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authornamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Science}
+      \field{number}{2}
+      \field{title}{Cognitive load during problem solving: Effects on learning}
+      \field{volume}{12}
+      \field{year}{1988}
+      \field{pages}{257\bibrangedash 285}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1207/s15516709cog1202_4
+      \endverb
+    \endentry
+    \entry{twenge2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc16eb1632b25a75e19b40faa46e2b0f}{%
+           family={Twenge},
+           familyi={T\bibinitperiod},
+           given={Jean\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{fullhash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{fullhashraw}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{bibnamehash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{authorbibnamehash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{authornamehash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{authorfullhash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{authorfullhashraw}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Adolescence}
+      \field{number}{1}
+      \field{title}{International declines in academic performance and increases in loneliness are linked to electronic devices}
+      \field{volume}{98}
+      \field{year}{2026}
+      \field{pages}{250\bibrangedash 261}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/jad.70058
+      \endverb
+    \endentry
+    \entry{twenge2021}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=cc16eb1632b25a75e19b40faa46e2b0f}{%
+           family={Twenge},
+           familyi={T\bibinitperiod},
+           given={Jean\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ad5db1a3e5b2a00eb7b9f09db549ab6}{%
+           family={Haidt},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d2ef6130b464c81630d60908144220c}{%
+           family={Blake},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50ec91e00a51af6afddabe5ca7903e29}{%
+           family={McAllister},
+           familyi={M\bibinitperiod},
+           given={Cooper},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=343621ef48cfc8af0ee297f4eeb23c14}{%
+           family={Lemon},
+           familyi={L\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=620c1b3737952e7852ad8e5ae5c63f1d}{%
+           family={Le\bibnamedelima Roy},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Astrid},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6922b4c7db3e5fe84a20ed3c23503c2}
+      \strng{fullhash}{87868f9be95ab481ba441d65aba7731f}
+      \strng{fullhashraw}{87868f9be95ab481ba441d65aba7731f}
+      \strng{bibnamehash}{87868f9be95ab481ba441d65aba7731f}
+      \strng{authorbibnamehash}{87868f9be95ab481ba441d65aba7731f}
+      \strng{authornamehash}{a6922b4c7db3e5fe84a20ed3c23503c2}
+      \strng{authorfullhash}{87868f9be95ab481ba441d65aba7731f}
+      \strng{authorfullhashraw}{87868f9be95ab481ba441d65aba7731f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Adolescence}
+      \field{number}{1}
+      \field{title}{Worldwide increases in adolescent loneliness}
+      \field{volume}{93}
+      \field{year}{2021}
+      \field{pages}{257\bibrangedash 269}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.adolescence.2021.06.006
+      \endverb
+    \endentry
+    \entry{unesco2023gem}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=24a0ef0a6269be289db4de9570763de3}{%
+           family={{UNESCO}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \strng{namehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{fullhash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{fullhashraw}{24a0ef0a6269be289db4de9570763de3}
+      \strng{bibnamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorbibnamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authornamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorfullhash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorfullhashraw}{24a0ef0a6269be289db4de9570763de3}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global education monitoring report 2023: Technology in education: A tool on whose terms?}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.54676/UZQV8501
+      \endverb
+    \endentry
+    \entry{peer2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=899ed3d4114aa2bedf62110216ead3ca}{%
+           family={{UNESCO GEM Report}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{fullhash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{fullhashraw}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{bibnamehash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{authorbibnamehash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{authornamehash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{authorfullhash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{authorfullhashraw}{899ed3d4114aa2bedf62110216ead3ca}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 14 October 2026}
+      \field{title}{Profiles Enhancing Education Reviews ({PEER}): Technology in education country profiles}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://education-profiles.org
+      \endverb
+      \verb{url}
+      \verb https://education-profiles.org
+      \endverb
+    \endentry
+    \entry{vuorre2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ba9191b166b24f2d91218013271fb854}{%
+           family={Vuorre},
+           familyi={V\bibinitperiod},
+           given={Matti},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6fff1711590020cb2477a7597aef651}{%
+           family={Orben},
+           familyi={O\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1514786a115ec4cf5fdb4d9238930b9}{%
+           family={Przybylski},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{806ae98ee95a401aa3614f7e95b6629b}
+      \strng{fullhash}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{fullhashraw}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{bibnamehash}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{authorbibnamehash}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{authornamehash}{806ae98ee95a401aa3614f7e95b6629b}
+      \strng{authorfullhash}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{authorfullhashraw}{8c392958a1766044317d2bc0b01fb6b6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Psychological Science}
+      \field{number}{5}
+      \field{title}{There is no evidence that associations between adolescents’ digital technology engagement and mental health problems have increased}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{pages}{823\bibrangedash 835}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1177/2167702621994549
+      \endverb
+    \endentry
+    \entry{wang2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4731e10e61b37617d5f7c88ae3f664bf}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73553d3facce524f4ec51d59aac43662}{%
+           family={Ni},
+           familyi={N\bibinitperiod},
+           given={Xiaoli},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eeb61e0e56681dfe6c7e2d516a00e77d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Mengzhu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=540350aae3ceea82f9e8156191ff98f8}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jingjie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d5d8f0bf7b06f7b3df4d0eb3539e75b}
+      \strng{fullhash}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{fullhashraw}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{bibnamehash}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{authorbibnamehash}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{authornamehash}{5d5d8f0bf7b06f7b3df4d0eb3539e75b}
+      \strng{authorfullhash}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{authorfullhashraw}{ab4cd31b9b8922bf54073319db9f2308}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Education}
+      \field{title}{Educational digital inequality: A meta-analysis of the relationship between digital device use and academic performance in adolescents}
+      \field{volume}{213}
+      \field{year}{2024}
+      \field{pages}{105003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compedu.2024.105003
+      \endverb
+    \endentry
+    \entry{ward2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=889ec46835cf56b48156d9bd3e78ba28}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Adrian\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c22f27a7bb8e00fb7f257398c2334ed}{%
+           family={Duke},
+           familyi={D\bibinitperiod},
+           given={Kristen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41a62b53e59b1c66fe9064d7d2774018}{%
+           family={Gneezy},
+           familyi={G\bibinitperiod},
+           given={Ayelet},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c28a8d77568d59338459c03e2c22af3}{%
+           family={Bos},
+           familyi={B\bibinitperiod},
+           given={Maarten\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67f2085f23ef6e8143999bc82e6e0752}
+      \strng{fullhash}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{fullhashraw}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{bibnamehash}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{authorbibnamehash}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{authornamehash}{67f2085f23ef6e8143999bc82e6e0752}
+      \strng{authorfullhash}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{authorfullhashraw}{e213794cad86f1d3f37523dfd5a1a68a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Association for Consumer Research}
+      \field{number}{2}
+      \field{title}{Brain drain: The mere presence of one’s own smartphone reduces available cognitive capacity}
+      \field{volume}{2}
+      \field{year}{2017}
+      \field{pages}{140\bibrangedash 154}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1086/691462
+      \endverb
+    \endentry
+    \entry{wdi2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{World development indicators}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://databank.worldbank.org/source/world-development-indicators
+      \endverb
+      \verb{url}
+      \verb https://databank.worldbank.org/source/world-development-indicators
+      \endverb
+    \endentry
+    \entry{whogho2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Indicator SDGSUICIDE; accessed 14 October 2026}
+      \field{title}{Global Health Observatory: Suicide mortality rate ({SDG} 3.4.2)}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/data/gho
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/data/gho
+      \endverb
+    \endentry
+    \entry{zimmerman2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58316125b0d9778cca6c8c29d7ce3c60}{%
+           family={Zimmerman},
+           familyi={Z\bibinitperiod},
+           given={Barry\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{fullhash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{fullhashraw}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{bibnamehash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{authorbibnamehash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{authornamehash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{authorfullhash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{authorfullhashraw}{58316125b0d9778cca6c8c29d7ce3c60}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theory Into Practice}
+      \field{number}{2}
+      \field{title}{Becoming a self-regulated learner: An overview}
+      \field{volume}{41}
+      \field{year}{2002}
+      \field{pages}{64\bibrangedash 70}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1207/s15430421tip4102_2
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{allen2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a0e76fd24405c50f075c5687dcf2f787}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Kelly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4fc8aaef9c06fc427673a3eb49dbf0b}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Margaret\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c36352a3b029be389c9f494c6d761364}{%
+           family={Vella-Brodrick},
+           familyi={V\bibinithyphendelim B\bibinitperiod},
+           given={Dianne},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7251c15733701c65025dabbf16656e4}{%
+           family={Hattie},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2930428360cbce3feae74f5b17e2aeb5}{%
+           family={Waters},
+           familyi={W\bibinitperiod},
+           given={Lea},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34df2113b9d87f85ca64e83e74bdf695}
+      \strng{fullhash}{9134f2a663942930708d53f572489a17}
+      \strng{fullhashraw}{9134f2a663942930708d53f572489a17}
+      \strng{bibnamehash}{9134f2a663942930708d53f572489a17}
+      \strng{authorbibnamehash}{9134f2a663942930708d53f572489a17}
+      \strng{authornamehash}{34df2113b9d87f85ca64e83e74bdf695}
+      \strng{authorfullhash}{9134f2a663942930708d53f572489a17}
+      \strng{authorfullhashraw}{9134f2a663942930708d53f572489a17}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Psychology Review}
+      \field{number}{1}
+      \field{title}{What schools need to know about fostering school belonging: A meta-analysis}
+      \field{volume}{30}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 34}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/s10648-016-9389-8
+      \endverb
+    \endentry
+    \entry{baumeister1995}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a4cf150af4a1fd87dfd43878dfe9ec82}{%
+           family={Baumeister},
+           familyi={B\bibinitperiod},
+           given={Roy\bibnamedelima F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79b7345cfec430f8072ffaeac71b0e1c}{%
+           family={Leary},
+           familyi={L\bibinitperiod},
+           given={Mark\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{fullhash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{fullhashraw}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{bibnamehash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{authorbibnamehash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{authornamehash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{authorfullhash}{6c3015cce88097a5848293d25cdd9cde}
+      \strng{authorfullhashraw}{6c3015cce88097a5848293d25cdd9cde}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{3}
+      \field{title}{The need to belong: Desire for interpersonal attachments as a fundamental human motivation}
+      \field{volume}{117}
+      \field{year}{1995}
+      \field{pages}{497\bibrangedash 529}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1037/0033-2909.117.3.497
+      \endverb
+    \endentry
+    \entry{beland2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=898c898593098a5c98513cc8bef09e71}{%
+           family={Beland},
+           familyi={B\bibinitperiod},
+           given={Louis-Philippe},
+           giveni={L\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62a04175b6e46f6b75cb08c2a98e7682}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{fullhash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{fullhashraw}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{bibnamehash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{authorbibnamehash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{authornamehash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{authorfullhash}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \strng{authorfullhashraw}{7b0df8a2b8cdc0ebbdaa61574929d209}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Labour Economics}
+      \field{title}{Ill communication: Technology, distraction \& student performance}
+      \field{volume}{41}
+      \field{year}{2016}
+      \field{pages}{61\bibrangedash 76}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.labeco.2016.04.004
+      \endverb
+    \endentry
+    \entry{benjamini1995}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2bf06df9b6fb1b6a6811f2965ef58db2}{%
+           family={Benjamini},
+           familyi={B\bibinitperiod},
+           given={Yoav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=486dfb83d695169656e5706b50266208}{%
+           family={Hochberg},
+           familyi={H\bibinitperiod},
+           given={Yosef},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{fullhash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{fullhashraw}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{bibnamehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authorbibnamehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authornamehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authorfullhash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authorfullhashraw}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Statistical Society Series B: Statistical Methodology}
+      \field{number}{1}
+      \field{title}{Controlling the false discovery rate: A practical and powerful approach to multiple testing}
+      \field{volume}{57}
+      \field{year}{1995}
+      \field{pages}{289\bibrangedash 300}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.2517-6161.1995.tb02031.x
+      \endverb
+    \endentry
+    \entry{bottger2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dc2adc36e4b6dfc02452009a6782b3e2}{%
+           family={Böttger},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a406f9850b406d95516ef721af8c2b7}{%
+           family={Poschik},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=195539698d56c5c4e33fbd569b494d95}{%
+           family={Zierer},
+           familyi={Z\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f605408be6681345d1d789e17013318a}
+      \strng{fullhash}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{fullhashraw}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{bibnamehash}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{authorbibnamehash}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{authornamehash}{f605408be6681345d1d789e17013318a}
+      \strng{authorfullhash}{94e29dbdb4aa5416bec6386c3360b031}
+      \strng{authorfullhashraw}{94e29dbdb4aa5416bec6386c3360b031}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral Sciences}
+      \field{number}{9}
+      \field{title}{Does the brain drain effect really exist? A meta-analysis}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{751}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/bs13090751
+      \endverb
+    \endentry
+    \entry{chen2007}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=47bbebb70dc480deb9258681501dd0fe}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fang\bibnamedelima Fang},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{fullhash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{fullhashraw}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{bibnamehash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{authorbibnamehash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{authornamehash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{authorfullhash}{47bbebb70dc480deb9258681501dd0fe}
+      \strng{authorfullhashraw}{47bbebb70dc480deb9258681501dd0fe}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Structural Equation Modeling: A Multidisciplinary Journal}
+      \field{number}{3}
+      \field{title}{Sensitivity of goodness of fit indexes to lack of measurement invariance}
+      \field{volume}{14}
+      \field{year}{2007}
+      \field{pages}{464\bibrangedash 504}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1080/10705510701301834
+      \endverb
+    \endentry
+    \entry{dang2020}{report}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4267b0cac760f6ae79e2bfeb89b29857}{%
+           family={Dang},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19b077014aa29b6a61a6b48e6ee49f26}{%
+           family={Glewwe},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a38fe2282e0ae708270c02346a36d08f}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a4d70d5522a088d5224d4a047fa89d}{%
+           family={Vu},
+           familyi={V\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Research on Improving Systems of Education (RISE)}%
+      }
+      \strng{namehash}{d442782b8bdc14fb27800504e0118f31}
+      \strng{fullhash}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{fullhashraw}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{bibnamehash}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{authorbibnamehash}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{authornamehash}{d442782b8bdc14fb27800504e0118f31}
+      \strng{authorfullhash}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \strng{authorfullhashraw}{abd4a34fe7530dd3ed2e896ae91417a2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{20/036}
+      \field{title}{What explains {Vietnam}’s exceptional performance in education relative to other countries? Analysis of the 2012 and 2015 {PISA} data}
+      \field{type}{Working Paper}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.35489/BSG-RISE-WP_2020/036
+      \endverb
+    \endentry
+    \entry{dinardo1996}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fd181f4907967a69be096ed4605f8946}{%
+           family={DiNardo},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7b71756f3a3c79229d749a8f1630a0a}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={Nicole\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=261b3be4ecb61f279cdbd85e8fcdcc32}{%
+           family={Lemieux},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ec58924af8569255075aab9b6fbf52e}
+      \strng{fullhash}{d5e15888119773f722668e4884265545}
+      \strng{fullhashraw}{d5e15888119773f722668e4884265545}
+      \strng{bibnamehash}{d5e15888119773f722668e4884265545}
+      \strng{authorbibnamehash}{d5e15888119773f722668e4884265545}
+      \strng{authornamehash}{0ec58924af8569255075aab9b6fbf52e}
+      \strng{authorfullhash}{d5e15888119773f722668e4884265545}
+      \strng{authorfullhashraw}{d5e15888119773f722668e4884265545}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{5}
+      \field{title}{Labor market institutions and the distribution of wages, 1973-1992: A semiparametric approach}
+      \field{volume}{64}
+      \field{year}{1996}
+      \field{pages}{1001\bibrangedash 1044}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.2307/2171954
+      \endverb
+    \endentry
+    \entry{government2015exam}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a6d2554d66fd0be13f95aba0e76b2b73}{%
+           family={{Government of Viet Nam}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{fullhash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{fullhashraw}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{bibnamehash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{authorbibnamehash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{authornamehash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{authorfullhash}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \strng{authorfullhashraw}{a6d2554d66fd0be13f95aba0e76b2b73}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Đề thi chung, làm thế nào để bảo đảm phân hóa trình độ thí sinh?}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://chinhsachonline.chinhphu.vn/de-thi-chung-lam-the-nao-de-bao-dam-phan-hoa-trinh-do-thi-sinh-16482.htm
+      \endverb
+      \verb{url}
+      \verb https://chinhsachonline.chinhphu.vn/de-thi-chung-lam-the-nao-de-bao-dam-phan-hoa-trinh-do-thi-sinh-16482.htm
+      \endverb
+    \endentry
+    \entry{ke2017}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=dadd87e1dad07728ce408894042b277e}{%
+           family={Ke},
+           familyi={K\bibinitperiod},
+           given={Guolin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=359e0be87f96079a68d0ebf5355da232}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1cb1c25fa372c0b0885de8a27dc0222}{%
+           family={Finley},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5857cb363d37a3b1ff2c28da6586fc9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Taifeng},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06debc36f6b61a405e8f0da1c7ccd6ca}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a70fde7196864f8be0248eba2f7f29c8}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Weidong},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=162ccfc475d9d2bc1177357e4913f290}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Qiwei},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=716b89cbb7332599ebb33cc58a52f648}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tie-Yan},
+           giveni={T\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cec83448a93ad6a5cdc6f494a8f2dbcb}
+      \strng{fullhash}{138b620984178bfaf960c59da39eb14f}
+      \strng{fullhashraw}{138b620984178bfaf960c59da39eb14f}
+      \strng{bibnamehash}{138b620984178bfaf960c59da39eb14f}
+      \strng{authorbibnamehash}{138b620984178bfaf960c59da39eb14f}
+      \strng{authornamehash}{cec83448a93ad6a5cdc6f494a8f2dbcb}
+      \strng{authorfullhash}{138b620984178bfaf960c59da39eb14f}
+      \strng{authorfullhashraw}{138b620984178bfaf960c59da39eb14f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{{LightGBM}: A highly efficient gradient boosting decision tree}
+      \field{volume}{30}
+      \field{year}{2017}
+      \field{pages}{3146\bibrangedash 3154}
+      \range{pages}{9}
+    \endentry
+    \entry{kenny2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=099479912de6b364738ea0bb3e62b1fb}{%
+           family={Kenny},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67480fb42b868307b06f2d464f1a4dba}{%
+           family={Kaniskan},
+           familyi={K\bibinitperiod},
+           given={Burcu},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f225a5b4e494ef3f6780d0dc61cff48}{%
+           family={McCoach},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi Betsy},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63ab23a15fce6a63ded2443c5d9c2a89}
+      \strng{fullhash}{5d929d13e494999000239735203f3c00}
+      \strng{fullhashraw}{5d929d13e494999000239735203f3c00}
+      \strng{bibnamehash}{5d929d13e494999000239735203f3c00}
+      \strng{authorbibnamehash}{5d929d13e494999000239735203f3c00}
+      \strng{authornamehash}{63ab23a15fce6a63ded2443c5d9c2a89}
+      \strng{authorfullhash}{5d929d13e494999000239735203f3c00}
+      \strng{authorfullhashraw}{5d929d13e494999000239735203f3c00}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sociological Methods \& Research}
+      \field{number}{3}
+      \field{title}{The performance of {RMSEA} in models with small degrees of freedom}
+      \field{volume}{44}
+      \field{year}{2015}
+      \field{pages}{486\bibrangedash 507}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1177/0049124114543236
+      \endverb
+    \endentry
+    \entry{kraut1998}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=032c4671b7e5e01c099dc744741eb99d}{%
+           family={Kraut},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48a504156135bb62b945305e0652a80f}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=209e0aee93869302f54510658478ef86}{%
+           family={Lundmark},
+           familyi={L\bibinitperiod},
+           given={Vicki},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f62210829b711f76695c197fde69a4bf}{%
+           family={Kiesler},
+           familyi={K\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25fb0d052127fc0e373167743d654c5b}{%
+           family={Mukophadhyay},
+           familyi={M\bibinitperiod},
+           given={Tridas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3906411ac810fc07c2448d7c4ed15f3c}{%
+           family={Scherlis},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6fb83a55961abdae28f9571407840dee}
+      \strng{fullhash}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{fullhashraw}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{bibnamehash}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{authorbibnamehash}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{authornamehash}{6fb83a55961abdae28f9571407840dee}
+      \strng{authorfullhash}{8f2eea913082a7aa2eedd9375007d5ce}
+      \strng{authorfullhashraw}{8f2eea913082a7aa2eedd9375007d5ce}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Psychologist}
+      \field{number}{9}
+      \field{title}{Internet paradox: A social technology that reduces social involvement and psychological well-being?}
+      \field{volume}{53}
+      \field{year}{1998}
+      \field{pages}{1017\bibrangedash 1031}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1037/0003-066X.53.9.1017
+      \endverb
+    \endentry
+    \entry{kuznekoff2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9f6576470d2b317529dc88c8f98140cf}{%
+           family={Kuznekoff},
+           familyi={K\bibinitperiod},
+           given={Jeffrey\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c5b0f930852bba00a4bd69dc6f003bd}{%
+           family={Titsworth},
+           familyi={T\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{fullhash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{fullhashraw}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{bibnamehash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{authorbibnamehash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{authornamehash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{authorfullhash}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \strng{authorfullhashraw}{34ac4b1b173f4f96853436c43cc9a4ed}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication Education}
+      \field{number}{3}
+      \field{title}{The impact of mobile phone usage on student learning}
+      \field{volume}{62}
+      \field{year}{2013}
+      \field{pages}{233\bibrangedash 252}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1080/03634523.2013.767917
+      \endverb
+    \endentry
+    \entry{lundberg2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2a1075150e1e1dad8127b019f7ca9031}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={Scott\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee964079d93879aaef2382a5fff343d3}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Su-In},
+           giveni={S\bibinithyphendelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{fullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{fullhashraw}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{bibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorbibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authornamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorfullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorfullhashraw}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{A unified approach to interpreting model predictions}
+      \field{volume}{30}
+      \field{year}{2017}
+      \field{pages}{4765\bibrangedash 4774}
+      \range{pages}{10}
+    \endentry
+    \entry{martin2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=31f646ceaf33380e34d4e3973ee39668}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ec69f698afdc107c01ec0c4300e4668}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Siyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0982c91bfd42a54f3a62bac2dcc9fe22}{%
+           family={Haywood},
+           familyi={H\bibinitperiod},
+           given={Katy},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e81a3921d999c1dba3f236c9efb35896}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Kui},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b3d1b1e73d6206437444c3ee007b750b}
+      \strng{fullhash}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{fullhashraw}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{bibnamehash}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{authorbibnamehash}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{authornamehash}{b3d1b1e73d6206437444c3ee007b750b}
+      \strng{authorfullhash}{cfccf08e70ed692236403d75b1cdd4a5}
+      \strng{authorfullhashraw}{cfccf08e70ed692236403d75b1cdd4a5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Technology Research and Development}
+      \field{title}{Digital distractions in education: A systematic review of research on causes, consequences and prevention strategies}
+      \field{volume}{73}
+      \field{year}{2025}
+      \field{pages}{3423\bibrangedash 3451}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/s11423-025-10550-6
+      \endverb
+    \endentry
+    \entry{mendoza2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=441c73babb95e6c34b42fbdd14960be3}{%
+           family={Mendoza},
+           familyi={M\bibinitperiod},
+           given={Jessica\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbea4544fcfb1c5efec9778db3d24b4a}{%
+           family={Pody},
+           familyi={P\bibinitperiod},
+           given={Benjamin\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f75854ac0ba466ac0e642abacd0ca822}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Seungyeon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d876c9fefacb7a5b1ec7477847798f4}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minsung},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7f1eea92ff667bed7fdb0c7a46fabb}{%
+           family={McDonough},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{69686ae0378ad14fe97bbe44d3caa801}
+      \strng{fullhash}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{fullhashraw}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{bibnamehash}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{authorbibnamehash}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{authornamehash}{69686ae0378ad14fe97bbe44d3caa801}
+      \strng{authorfullhash}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \strng{authorfullhashraw}{52d0eaac1b7c1d61e9d733813eaf6ed3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{title}{The effect of cellphones on attention and learning: The influences of time, distraction, and nomophobia}
+      \field{volume}{86}
+      \field{year}{2018}
+      \field{pages}{52\bibrangedash 60}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.chb.2018.04.027
+      \endverb
+    \endentry
+    \entry{moet2018curriculum}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6450430d2ed60541488909e4128bfc7f}{%
+           family={{Ministry of Education and Training of Viet Nam}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{fullhash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{fullhashraw}{6450430d2ed60541488909e4128bfc7f}
+      \strng{bibnamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorbibnamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authornamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorfullhash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorfullhashraw}{6450430d2ed60541488909e4128bfc7f}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thông tư 32/2018/{TT-BGDĐT} ban hành chương trình giáo dục phổ thông}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://vbpl.moj.gov.vn/bogiaoducdaotao/Pages/vbpq-toanvan.aspx?ItemID=146721
+      \endverb
+      \verb{url}
+      \verb https://vbpl.moj.gov.vn/bogiaoducdaotao/Pages/vbpq-toanvan.aspx?ItemID=146721
+      \endverb
+    \endentry
+    \entry{moet2020circular32}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6450430d2ed60541488909e4128bfc7f}{%
+           family={{Ministry of Education and Training of Viet Nam}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{fullhash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{fullhashraw}{6450430d2ed60541488909e4128bfc7f}
+      \strng{bibnamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorbibnamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authornamehash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorfullhash}{6450430d2ed60541488909e4128bfc7f}
+      \strng{authorfullhashraw}{6450430d2ed60541488909e4128bfc7f}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{15 September 2020; Article 37 on students' use of mobile phones}
+      \field{title}{Thông tư 32/2020/{TT}-{BGDĐT} ban hành Điều lệ trường trung học cơ sở, trường trung học phổ thông và trường phổ thông có nhiều cấp học}
+      \field{year}{2020}
+    \endentry
+    \entry{oecd2009manual}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{{PISA} data analysis manual: {SPSS}}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1787/9789264056275-en
+      \endverb
+    \endentry
+    \entry{oecd2022db}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Student and school questionnaire files}
+      \field{title}{{PISA} 2012, 2015, 2018 and 2022 databases}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.oecd.org/en/data/datasets/pisa-2022-database.html
+      \endverb
+      \verb{url}
+      \verb https://www.oecd.org/en/data/datasets/pisa-2022-database.html
+      \endverb
+    \endentry
+    \entry{oecd2023vol1}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PISA} 2022 results (Volume {I}): The state of learning and equity in education}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1787/53f23881-en
+      \endverb
+    \endentry
+    \entry{oecd2023vol2}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{4}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PISA} 2022 results (Volume {II}): Learning during -- and from -- disruption}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1787/a97db61c-en
+      \endverb
+    \endentry
+    \entry{oecd2024screen}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {OECD Publishing}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{extraname}{5}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{124}
+      \field{title}{Managing screen time: How to protect and equip students against distraction}
+      \field{type}{{PISA} in Focus}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1787/7c225af4-en
+      \endverb
+    \endentry
+    \entry{orben2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b6fff1711590020cb2477a7597aef651}{%
+           family={Orben},
+           familyi={O\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1514786a115ec4cf5fdb4d9238930b9}{%
+           family={Przybylski},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{fullhash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{fullhashraw}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{bibnamehash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{authorbibnamehash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{authornamehash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{authorfullhash}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \strng{authorfullhashraw}{c950d11fcc56d08403fa53ad4ddb7e53}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{number}{2}
+      \field{title}{The association between adolescent well-being and digital technology use}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{173\bibrangedash 182}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/s41562-018-0506-1
+      \endverb
+    \endentry
+    \entry{pekrun2006}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3091ca32ef7b0f930e4af4506a5bde9}{%
+           family={Pekrun},
+           familyi={P\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{fullhash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{fullhashraw}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{bibnamehash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{authorbibnamehash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{authornamehash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{authorfullhash}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \strng{authorfullhashraw}{a3091ca32ef7b0f930e4af4506a5bde9}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Psychology Review}
+      \field{number}{4}
+      \field{title}{The control-value theory of achievement emotions: Assumptions, corollaries, and implications for educational research and practice}
+      \field{volume}{18}
+      \field{year}{2006}
+      \field{pages}{315\bibrangedash 341}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/s10648-006-9029-9
+      \endverb
+    \endentry
+    \entry{przybylski2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e1514786a115ec4cf5fdb4d9238930b9}{%
+           family={Przybylski},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d47a34d4a69dc11246b9ebe4c32c65e4}{%
+           family={Weinstein},
+           familyi={W\bibinitperiod},
+           given={Netta},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{fullhash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{fullhashraw}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{bibnamehash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{authorbibnamehash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{authornamehash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{authorfullhash}{b27b428033a40c32cdf66212f40b59ba}
+      \strng{authorfullhashraw}{b27b428033a40c32cdf66212f40b59ba}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Science}
+      \field{number}{2}
+      \field{title}{A large-scale test of the {Goldilocks} hypothesis: Quantifying the relations between digital-screen use and the mental well-being of adolescents}
+      \field{volume}{28}
+      \field{year}{2017}
+      \field{pages}{204\bibrangedash 215}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1177/0956797616678438
+      \endverb
+    \endentry
+    \entry{putnick2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e620b53a2e2c2bbae4f679fb9cf2fcb7}{%
+           family={Putnick},
+           familyi={P\bibinitperiod},
+           given={Diane\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dffedb1628df0bc7620faad228a813da}{%
+           family={Bornstein},
+           familyi={B\bibinitperiod},
+           given={Marc\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{fullhash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{fullhashraw}{c71070c175ebe44796d21bc2433d0724}
+      \strng{bibnamehash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{authorbibnamehash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{authornamehash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{authorfullhash}{c71070c175ebe44796d21bc2433d0724}
+      \strng{authorfullhashraw}{c71070c175ebe44796d21bc2433d0724}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Developmental Review}
+      \field{title}{Measurement invariance conventions and reporting: The state of the art and future directions for psychological research}
+      \field{volume}{41}
+      \field{year}{2016}
+      \field{pages}{71\bibrangedash 90}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.dr.2016.06.004
+      \endverb
+    \endentry
+    \entry{rosenbaum1983}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=76aff98876d07e1fb68423227df64bff}{%
+           family={ROSENBAUM},
+           familyi={R\bibinitperiod},
+           given={PAUL\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7c61102e517f41410aea5988ff2a34c}{%
+           family={RUBIN},
+           familyi={R\bibinitperiod},
+           given={DONALD\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{fullhash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{fullhashraw}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{bibnamehash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{authorbibnamehash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{authornamehash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{authorfullhash}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \strng{authorfullhashraw}{3ad6dc6b809a59565e1e3db7f9ad7b77}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{1}
+      \field{title}{The central role of the propensity score in observational studies for causal effects}
+      \field{volume}{70}
+      \field{year}{1983}
+      \field{pages}{41\bibrangedash 55}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1093/biomet/70.1.41
+      \endverb
+    \endentry
+    \entry{rubin1987}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=49a367b6280de8a239f8bbdd573f996f}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{fullhash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{fullhashraw}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{bibnamehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authorbibnamehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authornamehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authorfullhash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authorfullhashraw}{49a367b6280de8a239f8bbdd573f996f}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multiple imputation for nonresponse in surveys}
+      \field{year}{1987}
+    \endentry
+    \entry{sweller1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9612a12907a8ce45293ceed61ce5e09b}{%
+           family={Sweller},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{fullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{bibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorbibnamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authornamehash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhash}{9612a12907a8ce45293ceed61ce5e09b}
+      \strng{authorfullhashraw}{9612a12907a8ce45293ceed61ce5e09b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Science}
+      \field{number}{2}
+      \field{title}{Cognitive load during problem solving: Effects on learning}
+      \field{volume}{12}
+      \field{year}{1988}
+      \field{pages}{257\bibrangedash 285}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1207/s15516709cog1202_4
+      \endverb
+    \endentry
+    \entry{twenge2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc16eb1632b25a75e19b40faa46e2b0f}{%
+           family={Twenge},
+           familyi={T\bibinitperiod},
+           given={Jean\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{fullhash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{fullhashraw}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{bibnamehash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{authorbibnamehash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{authornamehash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{authorfullhash}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \strng{authorfullhashraw}{cc16eb1632b25a75e19b40faa46e2b0f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Adolescence}
+      \field{number}{1}
+      \field{title}{International declines in academic performance and increases in loneliness are linked to electronic devices}
+      \field{volume}{98}
+      \field{year}{2026}
+      \field{pages}{250\bibrangedash 261}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/jad.70058
+      \endverb
+    \endentry
+    \entry{twenge2021}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=cc16eb1632b25a75e19b40faa46e2b0f}{%
+           family={Twenge},
+           familyi={T\bibinitperiod},
+           given={Jean\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ad5db1a3e5b2a00eb7b9f09db549ab6}{%
+           family={Haidt},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d2ef6130b464c81630d60908144220c}{%
+           family={Blake},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50ec91e00a51af6afddabe5ca7903e29}{%
+           family={McAllister},
+           familyi={M\bibinitperiod},
+           given={Cooper},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=343621ef48cfc8af0ee297f4eeb23c14}{%
+           family={Lemon},
+           familyi={L\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=620c1b3737952e7852ad8e5ae5c63f1d}{%
+           family={Le\bibnamedelima Roy},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Astrid},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6922b4c7db3e5fe84a20ed3c23503c2}
+      \strng{fullhash}{87868f9be95ab481ba441d65aba7731f}
+      \strng{fullhashraw}{87868f9be95ab481ba441d65aba7731f}
+      \strng{bibnamehash}{87868f9be95ab481ba441d65aba7731f}
+      \strng{authorbibnamehash}{87868f9be95ab481ba441d65aba7731f}
+      \strng{authornamehash}{a6922b4c7db3e5fe84a20ed3c23503c2}
+      \strng{authorfullhash}{87868f9be95ab481ba441d65aba7731f}
+      \strng{authorfullhashraw}{87868f9be95ab481ba441d65aba7731f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Adolescence}
+      \field{number}{1}
+      \field{title}{Worldwide increases in adolescent loneliness}
+      \field{volume}{93}
+      \field{year}{2021}
+      \field{pages}{257\bibrangedash 269}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.adolescence.2021.06.006
+      \endverb
+    \endentry
+    \entry{unesco2023gem}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=24a0ef0a6269be289db4de9570763de3}{%
+           family={{UNESCO}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \strng{namehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{fullhash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{fullhashraw}{24a0ef0a6269be289db4de9570763de3}
+      \strng{bibnamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorbibnamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authornamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorfullhash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorfullhashraw}{24a0ef0a6269be289db4de9570763de3}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global education monitoring report 2023: Technology in education: A tool on whose terms?}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.54676/UZQV8501
+      \endverb
+    \endentry
+    \entry{peer2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=899ed3d4114aa2bedf62110216ead3ca}{%
+           family={{UNESCO GEM Report}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{fullhash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{fullhashraw}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{bibnamehash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{authorbibnamehash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{authornamehash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{authorfullhash}{899ed3d4114aa2bedf62110216ead3ca}
+      \strng{authorfullhashraw}{899ed3d4114aa2bedf62110216ead3ca}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 14 October 2026}
+      \field{title}{Profiles Enhancing Education Reviews ({PEER}): Technology in education country profiles}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://education-profiles.org
+      \endverb
+      \verb{url}
+      \verb https://education-profiles.org
+      \endverb
+    \endentry
+    \entry{vuorre2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ba9191b166b24f2d91218013271fb854}{%
+           family={Vuorre},
+           familyi={V\bibinitperiod},
+           given={Matti},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6fff1711590020cb2477a7597aef651}{%
+           family={Orben},
+           familyi={O\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1514786a115ec4cf5fdb4d9238930b9}{%
+           family={Przybylski},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{806ae98ee95a401aa3614f7e95b6629b}
+      \strng{fullhash}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{fullhashraw}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{bibnamehash}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{authorbibnamehash}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{authornamehash}{806ae98ee95a401aa3614f7e95b6629b}
+      \strng{authorfullhash}{8c392958a1766044317d2bc0b01fb6b6}
+      \strng{authorfullhashraw}{8c392958a1766044317d2bc0b01fb6b6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Psychological Science}
+      \field{number}{5}
+      \field{title}{There is no evidence that associations between adolescents’ digital technology engagement and mental health problems have increased}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{pages}{823\bibrangedash 835}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1177/2167702621994549
+      \endverb
+    \endentry
+    \entry{wang2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4731e10e61b37617d5f7c88ae3f664bf}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73553d3facce524f4ec51d59aac43662}{%
+           family={Ni},
+           familyi={N\bibinitperiod},
+           given={Xiaoli},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eeb61e0e56681dfe6c7e2d516a00e77d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Mengzhu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=540350aae3ceea82f9e8156191ff98f8}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jingjie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d5d8f0bf7b06f7b3df4d0eb3539e75b}
+      \strng{fullhash}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{fullhashraw}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{bibnamehash}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{authorbibnamehash}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{authornamehash}{5d5d8f0bf7b06f7b3df4d0eb3539e75b}
+      \strng{authorfullhash}{ab4cd31b9b8922bf54073319db9f2308}
+      \strng{authorfullhashraw}{ab4cd31b9b8922bf54073319db9f2308}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Education}
+      \field{title}{Educational digital inequality: A meta-analysis of the relationship between digital device use and academic performance in adolescents}
+      \field{volume}{213}
+      \field{year}{2024}
+      \field{pages}{105003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compedu.2024.105003
+      \endverb
+    \endentry
+    \entry{ward2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=889ec46835cf56b48156d9bd3e78ba28}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Adrian\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c22f27a7bb8e00fb7f257398c2334ed}{%
+           family={Duke},
+           familyi={D\bibinitperiod},
+           given={Kristen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41a62b53e59b1c66fe9064d7d2774018}{%
+           family={Gneezy},
+           familyi={G\bibinitperiod},
+           given={Ayelet},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c28a8d77568d59338459c03e2c22af3}{%
+           family={Bos},
+           familyi={B\bibinitperiod},
+           given={Maarten\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67f2085f23ef6e8143999bc82e6e0752}
+      \strng{fullhash}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{fullhashraw}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{bibnamehash}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{authorbibnamehash}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{authornamehash}{67f2085f23ef6e8143999bc82e6e0752}
+      \strng{authorfullhash}{e213794cad86f1d3f37523dfd5a1a68a}
+      \strng{authorfullhashraw}{e213794cad86f1d3f37523dfd5a1a68a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Association for Consumer Research}
+      \field{number}{2}
+      \field{title}{Brain drain: The mere presence of one’s own smartphone reduces available cognitive capacity}
+      \field{volume}{2}
+      \field{year}{2017}
+      \field{pages}{140\bibrangedash 154}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1086/691462
+      \endverb
+    \endentry
+    \entry{wdi2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{World development indicators}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://databank.worldbank.org/source/world-development-indicators
+      \endverb
+      \verb{url}
+      \verb https://databank.worldbank.org/source/world-development-indicators
+      \endverb
+    \endentry
+    \entry{whogho2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Indicator SDGSUICIDE; accessed 14 October 2026}
+      \field{title}{Global Health Observatory: Suicide mortality rate ({SDG} 3.4.2)}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/data/gho
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/data/gho
+      \endverb
+    \endentry
+    \entry{zimmerman2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58316125b0d9778cca6c8c29d7ce3c60}{%
+           family={Zimmerman},
+           familyi={Z\bibinitperiod},
+           given={Barry\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{fullhash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{fullhashraw}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{bibnamehash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{authorbibnamehash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{authornamehash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{authorfullhash}{58316125b0d9778cca6c8c29d7ce3c60}
+      \strng{authorfullhashraw}{58316125b0d9778cca6c8c29d7ce3c60}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theory Into Practice}
+      \field{number}{2}
+      \field{title}{Becoming a self-regulated learner: An overview}
+      \field{volume}{41}
+      \field{year}{2002}
+      \field{pages}{64\bibrangedash 70}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1207/s15430421tip4102_2
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

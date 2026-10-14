@@ -1,0 +1,327 @@
+%% Paper 1 -- compile with:  latexmk -lualatex main.tex   (or Overleaf, compiler = LuaLaTeX)
+\documentclass[preprint,12pt,authoryear,nonatbib]{elsarticle}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx,booktabs,tabularx,multirow,float}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{xcolor,enumitem,setspace}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit}
+\usepackage{xurl}
+\usepackage[style=apa,backend=biber,sortcites=true]{biblatex}
+\addbibresource{refs.bib}
+\let\citep\parencite
+\let\citet\textcite
+\setlength{\bibhang}{0.5in}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lineno}
+\onehalfspacing
+\setlength{\tabcolsep}{5pt}
+\setlength{\emergencystretch}{2em}
+\Urlmuskip=0mu plus 1mu
+\newcommand{\tbd}[1]{\textcolor{red}{[#1]}}
+\graphicspath{{figures/}}
+\journal{Computers \& Education}
+
+% Vietnamese abstract: keep for the HNUE conference version; set \vietnamesefalse for journal submission
+\newif\ifvietnamese
+\vietnamesetrue
+\begin{document}
+\begin{frontmatter}
+\title{Connected but lonelier? A decade of digital transition and adolescent well-being in Viet Nam and East/Southeast Asia, 2012--2022}
+
+\author[a]{\tbd{Author 1}\corref{cor1}}
+\author[b]{\tbd{Author 2}}
+\cortext[cor1]{Corresponding author: \tbd{email}}
+\affiliation[a]{organization={\tbd{Affiliation 1}}, country={Viet Nam}}
+\affiliation[b]{organization={\tbd{Affiliation 2}}, country={Viet Nam}}
+
+\begin{abstract}
+Between 2012 and 2022, home internet access among Vietnamese 15-year-olds rose from 29\% to 90\%, the fastest rise among ten East and Southeast Asian PISA systems. We combine four PISA cycles (250,587 students), school questionnaires, population indicators and phone-policy records to examine concurrent changes in well-being and achievement. Viet Nam retained paper-based assessment throughout. Mathematics anxiety met scalar invariance and increased by 0.33 SD; reported loneliness rose from 6.1\% to 14.4\%. Belonging failed scalar invariance: freeing all three negative-item intercepts attenuated its estimated latent decline from $-0.250$ to $-0.035$ SD, while partial invariance still failed. Item-specific exclusion trends should therefore not be read as a validated decline in general belonging. Five reweighting specifications did not assign the loneliness increase to measured home access, but cannot exclude unmeasured exposure or confounding. The adjusted home-computer mathematics association increased to 23 points. In 2022, the distraction--achievement association attenuated after conditioning on non-digital disorder; the distraction--anxiety association persisted in Viet Nam after multiple-testing correction. Phone bans were associated with less distraction ($-0.08$ SD), without statistically clear adjusted achievement or anxiety differences. School-grouped validation added regression calibration and a separate below-Level-2 classifier (Brier 0.164 versus 0.203 at baseline). These observational patterns are consistent with attention to school climate, connectedness and equity; they do not identify causal effects of digital access or phone policies.
+\end{abstract}
+
+\begin{keyword}
+digital transition \sep adolescent well-being \sep loneliness \sep mathematics anxiety \sep digital distraction \sep PISA \sep measurement invariance \sep school phone policy
+\end{keyword}
+\end{frontmatter}
+
+\ifvietnamese
+\noindent\textbf{Tóm tắt.} Từ 2012 đến 2022, tỷ lệ học sinh 15 tuổi ở Việt Nam có internet tại nhà tăng từ 29\% lên 90\%, nhanh nhất trong 10 hệ thống giáo dục Đông Á và Đông Nam Á được khảo sát. Nghiên cứu kết hợp bốn chu kỳ PISA (250.587 học sinh), bảng hỏi nhà trường, chỉ số dân số và hồ sơ chính sách điện thoại. Lo âu toán học đạt bất biến đo lường cấp scalar và tăng 0,33 độ lệch chuẩn; tỷ lệ báo cáo cô đơn tăng từ 6,1\% lên 14,4\%. Tuy nhiên, thang đo thuộc về không đạt bất biến scalar: giải phóng intercept của cả ba mục phủ định làm mức giảm tiềm ẩn ước tính thu hẹp từ $-0,250$ xuống $-0,035$ độ lệch chuẩn, và mô hình partial-scalar vẫn không đạt tiêu chí bất biến. Vì vậy, xu hướng từng mục về cảm giác bị loại trừ không chứng minh mức suy giảm chung của cảm giác thuộc về. Năm cách tái trọng số không quy mức tăng cô đơn cho tiếp cận thiết bị tại nhà, nhưng không loại trừ tác động của hành vi sử dụng hay yếu tố gây nhiễu chưa đo. Chênh lệch điểm toán gắn với máy tính tại nhà tăng lên khoảng 23 điểm. Liên hệ giữa xao nhãng số và điểm toán thu hẹp khi kiểm soát mất trật tự phi kỹ thuật số; liên hệ với lo âu vẫn tồn tại ở Việt Nam sau hiệu chỉnh kiểm định bội. Cấm điện thoại gắn với ít xao nhãng hơn, nhưng chênh lệch điểm toán và lo âu sau điều chỉnh chưa rõ về mặt thống kê. Kiểm định chéo theo trường bổ sung đồ thị hiệu chuẩn và bộ phân loại riêng cho toán dưới mức 2 (Brier 0,164 so với 0,203 ở mô hình mốc). Đây là các mối liên hệ quan sát, không phải ước lượng tác động nhân quả của thiết bị hay chính sách.
+\fi
+
+\linenumbers
+\section{Introduction}
+
+Viet Nam's education system went online in a decade. Internet use in the population rose from 37\% in 2012 to 79\% in 2022 \citep{wdi2024}. National programmes such as \emph{Sóng và máy tính cho em} (``Connectivity and computers for students'') and pandemic-era remote schooling brought devices into most homes \citep{peer2024}. Vietnamese 15-year-olds have long outperformed what the country's income would predict in PISA \citep{dang2020}. Whether their well-being has kept pace with this transition is unknown. The question matters beyond Viet Nam: middle-income education systems across Asia are following the same path and are being urged to build ``smart, connected'' education ecosystems.
+
+International research is divided on what digital transitions do to adolescents. One strand documents rising adolescent loneliness and falling achievement from around 2012 and links both to the spread of smartphones, largely through \emph{aggregate} trends \citep{twenge2021,twenge2025}. A second strand finds that \emph{individual-level} associations between technology use and well-being are small \citep{orben2019,przybylski2017} and have not grown over time \citep{vuorre2021}. The two positions are not necessarily contradictory. Societal digitalisation could change the social ecology of adolescence, with consequences for every student, even if a given student's own access matters little. Distinguishing these \emph{ecological} and \emph{individual-exposure} accounts requires data that combine trends with within-cohort associations, which most studies lack.
+
+Classroom-level evidence is similarly mixed. Phone use during lessons impairs learning in experiments \citep{kuznekoff2013,mendoza2018}, and phone bans improved low achievers' scores in England \citep{beland2016}, but the ``brain drain'' effect of a phone's mere presence finds little meta-analytic support \citep{ward2017,bottger2023}. Policy has moved faster than evidence: a growing share of systems now restrict phones in schools \citep{unesco2023gem}. Viet Nam permits phones in class for learning purposes with the teacher's permission \citep{moet2020circular32}.
+
+This study contributes in four ways. \textbf{First}, it provides a decade-long account with measurement tests of Vietnamese adolescents' well-being in the digital transition. It uses four PISA cycles in which, uniquely in the region, Viet Nam's administration mode never changed. \textbf{Second}, it tests the individual-exposure account directly, through within-cycle associations and a reweighting decomposition of the trend. \textbf{Third}, it separates digital distraction from general classroom disorder and links both to achievement and achievement emotions. \textbf{Fourth}, it combines student, school, system and policy data. School policies are evaluated with propensity-score weighting, and inference across 13 systems is corrected for multiple testing.
+
+\section{Theoretical framework and hypotheses}
+
+\paragraph{Displacement and the ecology of adolescence} The displacement hypothesis holds that time online crowds out face-to-face interaction and thereby erodes social connectedness \citep{kraut1998}. Applied to individuals, it predicts that students with more digital access report more loneliness. Applied to cohorts, it suggests that when connectivity becomes universal, the social environment of school itself changes. Peers are less available and attention is fragmented, which affects connected and less-connected students alike \citep{twenge2021}. The ``Goldilocks'' and specification-curve literature, by contrast, suggests that individual-level associations are small and non-linear \citep{przybylski2017,orben2019}. Belonging is a fundamental need \citep{baumeister1995} and a robust correlate of school functioning \citep{allen2018}, so changes in it are consequential either way.
+
+\paragraph{Attention, disorder and achievement emotions} Digital distraction competes for the limited working memory needed for mathematics \citep{sweller1988}, but it also co-occurs with other forms of classroom disorder. Control-value theory \citep{pekrun2006} predicts that a classroom in which students cannot control their attention lowers perceived control over learning and therefore increases anxiety, even when the loss of instruction time is accounted for.
+
+\paragraph{Self-regulation and school policy} Self-regulated learners manage their environment to protect attention \citep{zimmerman2002}. Turning off notifications is a concrete instance of this. School phone bans remove the stimulus rather than build the skill, and schools may adopt them in response to existing problems.
+
+\paragraph{Hypotheses} \textbf{H1}: Between 2012 and 2022, indicators of social exclusion and mathematics anxiety among Vietnamese students increased. \textbf{H2 (individual exposure)}: within cycles, students with more home digital access report more loneliness and anxiety, and changes in access account for the trend. \textbf{H3}: digital distraction is associated with lower achievement and attenuates after conditioning on general classroom disorder. \textbf{H4}: digital distraction is associated with higher mathematics anxiety beyond classroom disorder and relationships. \textbf{H5}: school phone bans are associated with less distraction; digital self-regulation is associated with higher achievement. Figure~\ref{fig:framework} summarises the framework.
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth]{framework.pdf}
+\caption{Conceptual framework and hypotheses. The dashed arrow is the ecological (cohort-level) pathway; solid arrows from home access are the individual-exposure pathway (H2). Arrows are hypothesised relationships, not identified causal effects.}\label{fig:framework}
+\end{figure}
+
+\section{Data}
+
+Table~\ref{tab:sources} lists the five data sources. All are public and downloadable without registration.
+
+\begin{table}[H]\centering\small
+\caption{Data sources and levels of analysis}\label{tab:sources}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright}p{3.9cm}lX@{}}
+\toprule
+\# & Source & Level & Content and use\\
+\midrule
+S1 & PISA 2012, 2015, 2018, 2022 student files \citep{oecd2022db} & Student & 250,587 students in 10 systems for trends (Viet Nam: 4,959; 5,826; 5,377; 6,068) and 88,087 students in 13 systems in 2022. Harmonised items on digital access, belonging, mathematics anxiety and classroom climate; digital distraction and digital habits (2022).\\
+S2 & PISA 2022 school questionnaire & School & Principal reports on phone bans, rules on device use, responsible-internet programmes, SEL policy, school size, type and location.\\
+S3 & World Bank WDI \citep{wdi2024} & System & Internet users, mobile subscriptions, GDP per capita, 2010--2023.\\
+S4 & WHO Global Health Observatory \citep{whogho2025} & System & Suicide mortality (SDG 3.4.2), 2000--2021, used as population mental-health context.\\
+S5 & UNESCO GEM PEER profiles \citep{peer2024} & Policy & National rules on phones in schools, coded with verbatim evidence.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\paragraph{Harmonisation} We use items with identical wording and response scales across cycles: computer for school work and internet at home (in 2022 the internet item excludes access through smartphones); three or more internet-enabled phones at home (2015--2022; 2022 categories mapped to the same threshold); the six sense-of-belonging items; five mathematics-anxiety items (2012 and 2022, the two cycles with mathematics as the main domain); and five mathematics disciplinary-climate items (2012 and 2022). We analyse raw item responses, not cycle-specific scaled indices, and we test their comparability directly (Section~\ref{sec:invariance}).
+
+\paragraph{Administration mode} The other nine systems moved from paper-based to computer-based assessment in 2015 or 2018. Viet Nam remained paper-based in all four cycles (Appendix Table~\ref{tab:mode}), so Vietnamese trends are not confounded by changes in mode. Two data constraints are specific to Viet Nam. First, its 2018 performance data are not included in the public file, so 2018 contributes questionnaire indicators only. Second, the 2022 digital-habit items, which were part of the computer-based questionnaire only, are analysed for the eleven computer-based systems.
+
+\section{Method}
+
+\paragraph{Design-based estimation} Student-level descriptive and regression estimates use final student weights. Sampling variance uses 80 balanced repeated replication weights (Fay factor 0.5), and plausible-value variance (five in 2012, ten afterwards) is combined with Rubin's rules \citep{oecd2009manual,rubin1987}. Continuous predictors are standardised within system and cycle. Planned questionnaire rotation creates missingness by design; this does not make all item nonresponse missing completely at random. Regressions use complete cases on their variables, descriptive estimates use available responses, DFL uses missing-covariate categories, and LightGBM handles missing predictors natively. Complete-case associations require appropriate assumptions about response selection; analytic sample sizes are reported. Across-system hypothesis tests use false-discovery-rate correction \citep{benjamini1995}. CFA fit and machine-learning diagnostics are weighted descriptive estimates rather than BRR-adjusted hypothesis tests.
+
+\paragraph{Measurement invariance}\label{sec:invariance} For Viet Nam we fitted one-factor multi-group confirmatory factor models to weighted item moments by maximum likelihood, separately for belonging (four cycles; residual covariances among the three negatively worded items to absorb the wording method effect) and mathematics anxiety (2012 vs 2022). We tested configural, metric and scalar invariance, applying the $\Delta\text{CFI} \geq -0.010$ criterion \citep{chen2007,putnick2016}, and estimated latent mean differences in units of the 2012 standard deviation.
+
+\paragraph{Testing the individual-exposure account (H2)} Within each system and cycle, we regressed loneliness (linear probability, percentage points), the belonging scale and mathematics anxiety on home computer, internet and smartphones, controlling for ESCS, gender, grade, grade repetition and books at home. We then decomposed the 2012--2022 change in Viet Nam with DiNardo--Fortin--Lemieux reweighting \citep{dinardo1996}. The 2022 sample was reweighted to reproduce the 2012 distribution of (i) composition (gender, grade, repetition, books) and (ii) composition plus home computer and internet. The differences between the actual and counterfactual 2022 means give the parts of the change explained by composition and by access.
+
+\paragraph{Digital distraction, 2022 (H3--H4)} DIGDIST is the mean of two items on distraction by one's own and by peers' digital devices in mathematics lessons. The official 2022 DISCLIM index contains these items, so we built a non-digital disciplinary-climate index from the five classic items. Models M1/M2 predict mathematics (background controls; + non-digital climate), and models A1/A2 predict mathematics anxiety (background controls; + climate, belonging, bullying, teacher support).
+
+\paragraph{School policies (H5)} Phone bans are not randomly assigned. For each system we estimated school-level propensity scores for having a ban from school-mean ESCS, location, size and type, and applied stabilised inverse-probability weights \citep{rosenbaum1983}, with propensity probabilities clipped to .05/.95, in pooled models with system fixed effects and equal system weights.
+
+\paragraph{Interpretable machine learning} LightGBM models \citep{ke2017} were trained per system and outcome. For performance, one model was trained for each plausible value; student weights were used and missing values were handled natively. Accuracy was assessed with five-fold cross-validation \emph{grouped by school}, against a weighted linear benchmark. Predictor importance is the weighted mean absolute SHAP value \citep{lundberg2017}. The same approach was applied by cycle with the harmonised features to track how the importance of predictors shifted over the decade.
+
+\paragraph{Additional checks and calibration} We re-estimated belonging with B3 as the positive anchor, freeing the B1/B4/B6 intercepts across cycles, including a specification omitting 2018. Partial-scalar CFI is compared with the metric model, not with the already rejected full-scalar model. DFL sensitivity includes untrimmed weights, propensity clipping at .01/.99 and .05/.95, and density-ratio winsorisation at the 1st/99th and 5th/95th percentiles. Each stage is refitted with all 80 replicate weights separately for 2012 and 2022, summing independent-cycle variances. Weighted logistic fitting uses mean-one sampling weights to stabilise regularisation. A conditional permutation diagnostic jointly shuffles computer/internet labels 199 times within gender by ESCS-quintile strata; it is a model check, not a causal placebo. Reading is analysed as a comparison outcome rather than assumed to be unrelated to technology. For Viet Nam's 2022 LightGBM models we report weighted out-of-fold observed-on-predicted slopes, intercepts and decile reliability. A separate classifier for mathematics below Level 2 (420.07 points) reports weighted Brier scores against each fold's training-prevalence baseline \citep{oecd2023vol1}. All ten mathematics plausible values are fitted separately; target-missing cases are excluded. No validation fold contains schools from its training folds.
+
+\section{Results}
+Unless specified otherwise, descriptive tables use available-case final-weighted estimates, regression tables use model-specific complete cases and final weights, and parenthesised SEs use all 80 Fay BRR replicates (plus Rubin combination for achievement). Any stars denote $*p<.05$, $**p<.01$, $***p<.001$; $q$ denotes the Benjamini--Hochberg adjusted value. These conventions do not apply to CFA fit statistics, SHAP importance or prediction diagnostics. Table-specific sample sizes are unweighted counts.
+
+
+\subsection{Are the measures comparable over time?}
+Table~\ref{tab:invariance} reports the original invariance models. Mathematics anxiety met scalar invariance between 2012 and 2022 ($\Delta$CFI $= -0.009$; CFI $= 0.958$). Its RMSEA was elevated, as can occur with few degrees of freedom \citep{kenny2015}. The corresponding latent mean increased by \textbf{0.33 SD}. Belonging met metric invariance but failed scalar invariance. The targeted partial-scalar re-estimation freeing all three negative-item intercepts improves CFI from 0.749 to 0.916, but still falls 0.060 below the metric model (Table~\ref{tab:partial}). The 2022 latent contrast attenuates from $-0.250$ to $-0.035$ SD, or $-0.042$ SD when 2018 is omitted (Table~\ref{tab:partialmeans}). Thus the inference of a substantial common latent decline is sensitive to measurement assumptions; these failed-invariance estimates are diagnostic, not validated latent trends. Item-level changes remain informative (Table~\ref{tab:items}): negatively worded items move toward exclusion, while ``other students seem to like me'' increases. Complete item means, SDs and category frequencies are provided in Tables~\ref{tab:itemsB}--\ref{tab:itemsA}; response-style changes remain a plausible explanation.
+
+\begin{table}[H]\centering\scriptsize
+\caption{Measurement invariance, Viet Nam (multi-group CFA, ML on weighted moments)}\label{tab:invariance}
+\input{tables/tab_invariance}
+\par\smallskip\raggedright\footnotesize Final-weighted item moments; complete cases. Belonging models include residual covariances among B1/B4/B6. Here $\Delta$CFI is relative to the previous nested model, with earlier partial-scalar rows showing improvement over full scalar only; those positive differences do not establish invariance. The targeted partial-scalar check in Table~\ref{tab:partial} compares directly with metric. These ML fit statistics are not survey-adjusted tests.
+\end{table}
+
+\begin{table}[H]\centering\footnotesize
+\caption{Viet Nam: belonging items, percentage giving the belonging response}\label{tab:items}
+\input{tables/tab_items}
+\end{table}
+
+\subsection{A decade of change (H1)}
+Table~\ref{tab:vnmtrend} and Figure~\ref{fig:trends} trace Viet Nam over the decade. Home internet access rose from 29.2\% to 89.6\%, and households with three or more smartphones rose from 29\% (2015) to 69\%, the fastest diffusion among the ten systems. The share of students who agreed that they feel lonely at school more than doubled (6.1\% to 14.4\%). Viet Nam began the decade as the least lonely system in the sample and recorded the largest increase (Table~\ref{tab:change}). Students who felt very tense doing mathematics homework rose from 33.3\% to 45.5\%, and those reporting noise and disorder in most mathematics lessons from 10.6\% to 17.6\%. Over the same period, disciplinary climate \emph{improved} in Korea, Malaysia, Chinese Taipei and Singapore (Figure~\ref{fig:dumbbell}). H1 is supported.
+
+\begin{table}[H]\centering\footnotesize
+\caption{Viet Nam, PISA 2012--2022: harmonised indicators (weighted; BRR standard errors in parentheses)}\label{tab:vnmtrend}
+\input{tables/tab_vnm_trend}
+\par\smallskip\raggedright\footnotesize 2018 performance data for Viet Nam are not in the public file. Mathematics trends are descriptive (link error not added).
+\end{table}
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth]{FigT1_trends_small_multiples.pdf}
+\caption{Trends 2012--2022: (a) mathematics, (b) computer access, (c) internet access, (d) belonging agreement, (e) loneliness, (f) SES gradient. Viet Nam is blue with 95\% BRR intervals; nine other systems are grey. Total $n=250,587$; cycle-specific samples are in Table~\ref{tab:sources}. Available responses and final student weights are used.}\label{fig:trends}
+\end{figure}
+
+\begin{table}[H]\centering\footnotesize
+\caption{Change 2012--2022 in harmonised indicators (percentage points unless stated)}\label{tab:change}
+\input{tables/tab_change}
+\par\smallskip\raggedright\footnotesize * $p<.05$, ** $p<.01$, *** $p<.001$ (independent samples, BRR standard errors).
+\end{table}
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth]{FigT2_dumbbell_2012_2022.pdf}
+\caption{2012 (open) versus 2022 (filled): (a) anxiety, (b) homework tension, (c) classroom noise. Ten systems; available responses and final student weights. Cycle samples are in Table~\ref{tab:sources}; these panels show means without inferential intervals.}\label{fig:dumbbell}
+\end{figure}
+
+\subsection{Is the trend explained by students' own digital access? (H2)}
+The measured home-access indicators provide little evidence for H2 in the adjusted within-cycle models (Table~\ref{tab:access}). Across the region, \input{tables/access_region_summary}: where access mattered, it was associated with \emph{less} loneliness. In the updated DFL analysis, composition contributes $-0.61$ percentage points and access $-1.24$ points to the observed $+8.27$-point loneliness increase (Table~\ref{tab:dfl}). The access contribution remains non-positive across all five clipping specifications (Table~\ref{tab:dflsens}). The access-stage effective sample size is only 367 of 6,068 students with untrimmed weights, rising to 637 with .05/.95 probability clipping and 1,123 with 5th/95th-percentile ratio winsorisation (Table~\ref{tab:overlap}). Limited overlap therefore warrants caution despite stable point-estimate direction. These results do not support the proposed compositional explanation, but nonsignificance does not establish equivalence or exclude effects of usage intensity, content or unmeasured context. Conditional permutation diagnostics yield no unusual home-access coefficients under the selected null (Table~\ref{tab:perm}). Reading and mathematics are both positively associated with ICT resources in 2022 (17.76 and 18.17 points per SD; Table~\ref{tab:reading}); reading is therefore unsuitable as a technology-unrelated negative control.
+
+Although measured digital access does not account for the well-being trend in this decomposition, its association with achievement has strengthened, raising an equity concern. This is an ancillary H2 finding; H5 concerns school phone policies and self-regulation rather than access inequality.
+
+\begin{table}[H]\centering\scriptsize
+\caption{Viet Nam: within-cycle associations of home digital access with well-being (SE in parentheses)}\label{tab:access}
+\input{tables/tab_access}
+\par\smallskip\raggedright\footnotesize Controls: ESCS, gender, grade, grade repetition, books at home. Lonely: percentage points; belonging and anxiety: scale points (1--4).
+\end{table}
+
+\begin{table}[H]\centering\footnotesize
+\caption{Viet Nam: DiNardo--Fortin--Lemieux decomposition of the 2012--2022 change}\label{tab:dfl}
+\input{tables/tab_dfl}
+\par\smallskip\raggedright\footnotesize SE in parentheses; final student weights with untrimmed DFL ratios. Composition: gender, grade, repetition, books; access: computer/internet. Available outcomes; missing covariates form categories. All 80 Fay BRR replicates are refitted independently in each cycle. Residual = change not accounted for by measured composition/access, not an identified causal mechanism. Full sample and weight diagnostics accompany the code.
+\end{table}
+
+\paragraph{Access and achievement inequality} Although measured access did not account for the well-being trend, its adjusted association with achievement strengthened (Table~\ref{tab:vnmrel}). In 2012 a home computer was unrelated to mathematics net of ESCS and books ($-4.9$, n.s.); by 2022 it was associated with $+23.4$ points. In the machine-learning models (Figure~\ref{fig:shapcycle}), the share of predictive importance attributable to a home computer rose from 2\% to 14\% and to smartphones from 4\% to 10\%, while grade level, a marker of late entry and repetition, fell from 32\% to 8\%.
+
+\begin{table}[H]\centering\footnotesize
+\caption{Viet Nam: changing relationships with mathematics performance (points; SE in parentheses)}\label{tab:vnmrel}
+\input{tables/tab_vnm_rel}
+\par\smallskip\raggedright\footnotesize Computer and internet models control for ESCS, gender and books; belonging and anxiety models for ESCS and gender.
+\end{table}
+
+\begin{figure}[H]\centering
+\includegraphics[width=.92\textwidth]{FigT3_vnm_shap_by_cycle.pdf}
+\caption{Viet Nam: share of SHAP importance of harmonised predictors of mathematics, by cycle (school-grouped CV $R^2$ = 0.36, 0.21, 0.23; $n=4,959$, 5,826 and 6,068 in 2012, 2015 and 2022). Final-weighted LightGBM fits use native missing-predictor handling; SHAP shares describe prediction, not causal importance.}\label{fig:shapcycle}
+\end{figure}
+
+\subsection{Digital distraction in 2022 (H3, H4)}
+In 2022, 14.3\% of Vietnamese students reported digital distraction in most or every mathematics lesson, compared with 5.2\% in Japan and 40.9\% in the Philippines (Table~\ref{tab:desc22}, Figure~\ref{fig:prev}). With background controls, distraction predicted lower mathematics scores in 12 of 13 systems (Viet Nam $-4.1$ points per SD). After non-digital disorder was controlled, the association disappeared in Viet Nam ($+0.7$) and was significant in only 6 of 13 systems after false-discovery-rate correction (Table~\ref{tab:models22}, Figure~\ref{fig:forest}). H3 is supported. Distraction predicted mathematics anxiety with background controls in 9 of 10 systems. After controlling for climate, belonging, bullying and teacher support, \textbf{Viet Nam was the only system} in which the association remained significant after correction ($+0.08$ SD, $q<.001$; Figure~\ref{fig:forestanx}). The SHAP dependence curve shows that it is concentrated among students who are distracted in every lesson (Figure~\ref{fig:dep}). H4 is supported for Viet Nam. In the eleven computer-based systems, students who turned off notifications in class scored 9--20 points higher per SD in 10 of 11 systems (Figure~\ref{fig:habits}).
+
+\begin{table}[H]\centering\scriptsize
+\caption{Digital distraction, digital habits, mathematics and anxiety, PISA 2022}\label{tab:desc22}
+\input{tables/tab_2022_desc}
+\par\smallskip\raggedright\footnotesize ``--'': not administered (paper-based systems or national option).
+\end{table}
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth]{Fig1_prevalence_digital_distraction.pdf}
+\caption{Students distracted by digital devices in most or every mathematics lesson: final-weighted percentages with 95\% BRR intervals. Thirteen systems, base $n=88,087$; percentages exclude missing item responses.}\label{fig:prev}
+\end{figure}
+
+\begin{table}[H]\centering\footnotesize
+\caption{Digital distraction (DIGDIST) coefficients, PISA 2022 (SE in parentheses)}\label{tab:models22}
+\input{tables/tab_2022_models}
+\par\smallskip\raggedright\footnotesize Controls: ESCS, gender, grade, grade repetition. * $p<.05$, ** $p<.01$, *** $p<.001$ (unadjusted). Benjamini--Hochberg significant at $q<.05$: \input{tables/bh_summary}.
+\end{table}
+
+\begin{figure}[H]\centering
+\includegraphics[width=.95\textwidth]{Fig2_forest_math.pdf}
+\caption{Digital distraction and mathematics before (M1) and after (M2) conditioning on non-digital disorder. Dots: coefficients; bars: 95\% BRR/Rubin intervals using ten plausible values, final weights and complete cases. Thirteen systems; system sample sizes are in Table~\ref{tab:modeln}.}\label{fig:forest}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=.95\textwidth]{Fig3_forest_anxiety.pdf}
+\caption{Digital distraction and mathematics anxiety before (A1) and after (A2) controls. Dots: coefficients; bars: 95\% BRR intervals using final weights and complete cases. Ten systems; model sample sizes are in Table~\ref{tab:modeln}.}\label{fig:forestanx}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=.95\textwidth]{F_shap_dependence_VNM_ANXMAT.pdf}
+\caption{Viet Nam: SHAP dependence of mathematics anxiety on (a) digital distraction in mathematics lessons (1 = never, 4 = every lesson) and (b) ``I get easily distracted'' (1 = strongly disagree, 5 = strongly agree). Black line: unweighted mean SHAP value per response level; $n=5,934$ Vietnamese students with observed anxiety. The fitted LightGBM model uses final student weights; this is a predictive dependence plot, not a causal contrast.}\label{fig:dep}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth]{Fig4_digital_habits_math.pdf}
+\caption{Digital habits and mathematics in eleven computer-based systems. Dots and bars: coefficients and 95\% BRR/Rubin intervals from all ten plausible values; blue diamonds: inverse-variance means. Final weights and model-specific complete cases; total analytic $n=13,339$, with system counts in Table~\ref{tab:modeln} (M4).}\label{fig:habits}
+\end{figure}
+
+\subsection{School phone policies (H5)}
+Only 11.6\% of Vietnamese students attended schools whose principal reported that phones were not allowed on the premises, compared with 64--81\% in Hong Kong, Malaysia and Brunei (Table~\ref{tab:policyprev}). In the naive pooled model, bans were associated with less distraction and with lower mathematics scores (Table~\ref{tab:policymodels}). After inverse-probability weighting (Table~\ref{tab:ipw}), bans remained associated with less distraction ($-0.08$ SD, $p<.001$), whereas the achievement difference shrank to $-1.9$ points and was not significant. The attenuation is consistent with measured selection into bans; residual confounding and uncertainty prevent a causal interpretation. Bans were not associated with anxiety. Responsible-internet programmes were associated with lower anxiety in the pooled model, and in Viet Nam with less distraction. The phone-ban part of H5 is consistent with the distraction association; the self-regulation part is consistent with the achievement associations in the computer-based systems. Neither is a causal policy estimate.
+
+\begin{table}[H]\centering\footnotesize
+\caption{Students in schools with each device policy, PISA 2022 (\%)}\label{tab:policyprev}
+\input{tables/tab_policy_prev}
+\end{table}
+
+\begin{table}[H]\centering\scriptsize
+\caption{School policies and student outcomes, regression adjustment (SE in parentheses)}\label{tab:policymodels}
+\input{tables/tab_policy_models}
+\par\smallskip\raggedright\footnotesize Controls: student ESCS, school-mean ESCS, gender, grade, urban location; anxiety and mathematics models also control for DIGDIST. Singapore programme estimates rest on very few schools without the programme.
+\end{table}
+
+\begin{table}[H]\centering\footnotesize
+\caption{School phone bans: pooled estimates with inverse-probability weighting (13 systems, system fixed effects)}\label{tab:ipw}
+\input{tables/tab_ipw}
+\par\smallskip\raggedright\footnotesize Propensity score from school-mean ESCS, urban location, log school size and private management, estimated within each system; propensity probabilities clipped to .05/.95 before forming the weights.
+\end{table}
+
+\section{Discussion}
+
+\paragraph{Well-being trends and measurement (H1)} Viet Nam's rapid connectivity coincided with greater reported loneliness and a measurement-invariant increase in mathematics anxiety. The targeted partial-scalar analysis substantially attenuates the belonging contrast and still fails the invariance criterion. H1 is therefore supported by specific item trends and anxiety, rather than by a robust common latent belonging decline. Wording and response-style changes warrant caution in interpreting social exclusion.
+
+\paragraph{Home access and equity (H2)} The within-cycle and DFL results provide little support for the measured home-access account of loneliness. Sensitivity to five weighting choices strengthens this descriptive conclusion, without ruling out intensity of use, content, reverse causation or unobserved confounding. Aggregate trends \citep{twenge2021,twenge2025} and small individual associations \citep{orben2019,vuorre2021} can coexist. An ecological mechanism remains a hypothesis to investigate. Meanwhile, the increasing adjusted home-computer achievement association raises an equity concern; repeated cross-sections cannot establish that devices caused the gap.
+
+\paragraph{Classroom climate and emotions (H3/H4)} The distraction--achievement association attenuates after non-digital disorder is included, consistent with classroom attention and cognitive-load accounts \citep{sweller1988}. Conditioning on a concurrent climate measure does not identify mediation, because temporal ordering and confounding of mediator and outcome are unresolved. The remaining distraction--anxiety association in Viet Nam is consistent with control-value theory \citep{pekrun2006}. Cross-system significance differences do not themselves prove different effect sizes; interactions would be required for that claim. The regression reliability plots show reasonable mathematics calibration and an anxiety calibration slope below one. SHAP describes prediction under correlated features, not mechanisms or causal variable importance.
+
+\paragraph{Phone policies and self-regulation (H5)} Bans are associated with less distraction after adjustment, while adjusted achievement and anxiety differences remain statistically uncertain. Propensity weighting addresses measured school characteristics only. Turning off notifications is positively associated with achievement in most computer-based systems, but behavioural selection may explain part of this pattern. Classroom management and self-regulation merit prospective evaluation alongside Viet Nam's conditional phone rule \citep{moet2020circular32}.
+
+\paragraph{Pandemic and concurrent policy changes} PISA has no observations for 2020/2021 in this dataset. The loneliness increase was already 6.55 percentage points in 2012--2018, followed by 1.72 points in 2018--2022; belonging agreement decreased in the first interval but recovered in the second (Table~\ref{tab:pandemic}). Thus COVID-19 alone cannot explain the earlier item trend, but the later interval does not isolate a closure effect. OECD's PISA 2022 analysis places pandemic disruptions alongside longer-term changes \citep{oecd2023vol2}. Viet Nam also adopted the 2018 general curriculum, with grade 10 scheduled from 2022/2023, and changed national graduation/university-entry assessment from 2015 \citep{moet2018curriculum,government2015exam}. These reforms are concurrent context, not estimated causes; implementation dates and individual curriculum exposure must be checked before attributing the 2022 observations to the new grade-10 programme. Examination pressure and changing instruction remain alternative explanations.
+
+\paragraph{Methodological contribution and recent evidence} The contribution combines multi-cycle harmonisation with measurement-invariance tests, sequential DFL decomposition, and LightGBM/SHAP tracking of predictive importance across cycles in ten East and Southeast Asian systems. This regional design should not be described as a global sample. Recent evidence includes OECD's PISA-2022 screen-time analysis \citep{oecd2024screen}, a 2024 adolescent device-use/achievement meta-analysis \citep{wang2024}, and a 2025 systematic review of digital distractions \citep{martin2025}. The latter already recognises technology, personal and environmental factors. Our addition is the joint temporal, measurement and distributional analysis of PISA data; ecological framing itself is not new. The 2024 meta-analysis is not exclusively a PISA-2022 synthesis, and the 2025 review is not a meta-analysis.
+
+\paragraph{Implications and limitations} Monitor item-specific well-being alongside digital inclusion; evaluate classroom climate and self-regulation interventions; and prioritise equitable learning resources. These are research and policy priorities, not demonstrated treatment benefits. Repeated cross-sections, complete-case selection, coarse access measures and concurrent outcomes limit causal inference. DFL accounts for measured distributional shifts only. Belonging remains non-invariant, and weighted-moment continuous-item CFA is an approximation to ordinal responses. Predictive calibration is internal school-grouped validation, without external or prospective validation. Mathematics trends omit link error; Viet Nam's 2018 performance values are unavailable. Principal-reported policies and the small number of systems further limit inference.
+
+\section{Conclusion}
+For H1, Vietnamese students reported more loneliness and mathematics anxiety, but the partial-scalar check weakens a broad latent belonging-decline claim. For H2, measured home access does not account for the loneliness trend across reweighting specifications; its strengthening achievement association nevertheless raises an equity concern. For H3/H4, the adjusted patterns connect distraction with classroom climate and anxiety without identifying mediation. For H5, phone bans correlate with less distraction and self-regulation correlates with achievement, while causal policy effects remain unresolved. Longitudinal and intervention evidence is needed to guide a well-being and equity agenda for digital education.
+
+\section*{Ethics statement}
+The study uses publicly released, de-identified secondary data. No new data were collected and no ethical approval was required.
+
+\section*{Data and code availability}
+The international student and school files are available from the \href{https://www.oecd.org/en/data/datasets/pisa-2022-database.html}{OECD PISA database}, with earlier cycles linked in the accompanying code documentation. Context indicators come from \href{https://databank.worldbank.org/source/world-development-indicators}{World Bank WDI}, \href{https://www.who.int/data/gho}{WHO GHO} and \href{https://education-profiles.org}{UNESCO PEER}. A publication repository folder containing code, aggregate results, figure sources and LaTeX has been prepared locally for release. A public code URL/DOI has not yet been assigned and must be added before submission; individual-level data are obtained from the original providers rather than redistributed in this folder.
+
+\section*{CRediT authorship contribution statement}
+\tbd{Author 1}: Conceptualization, Methodology, Formal analysis, Writing -- original draft. \tbd{Author 2}: Validation, Writing -- review \& editing.
+
+\section*{Declaration of competing interest}
+The authors declare no competing interests.
+
+\section*{Declaration of generative AI use}
+OpenAI Codex was used to assist with programming, robustness analyses, language editing and LaTeX preparation. It was not used to generate student observations or substitute for empirical estimates. The authors are responsible for reviewing the analyses, references and final text and for the content of the submitted article.
+
+\printbibliography
+
+\appendix
+\section{Supplementary tables and figures}
+\setcounter{table}{0}\renewcommand{\thetable}{A\arabic{table}}
+\setcounter{figure}{0}\renewcommand{\thefigure}{A\arabic{figure}}
+\renewcommand{\theHtable}{A\arabic{table}}
+\renewcommand{\theHfigure}{A\arabic{figure}}
+
+\begin{table}[H]\centering\footnotesize
+\caption{PISA administration mode by system and cycle}\label{tab:mode}
+\input{tables/tab_mode}
+\end{table}
+
+\begin{table}[H]\centering\scriptsize
+\caption{Earlier diagnostic latent-mean specifications, Viet Nam (2012 SD units; invariance failed)}\label{tab:latent}
+\input{tables/tab_latent}
+\par\smallskip\raggedright\footnotesize Earlier belonging specifications are shown for comparison and do not validate latent trends. The targeted negative-item analysis in Tables~\ref{tab:partial}--\ref{tab:partialmeans} supersedes any claim of a substantial robust decline.
+\end{table}
+
+\begin{table}[H]\centering\footnotesize
+\caption{Out-of-sample $R^2$ (school-grouped five-fold CV), PISA 2022}\label{tab:ml}
+\input{tables/tab_ml}
+\end{table}
+
+\begin{table}[H]\centering\scriptsize
+\caption{System-level context, 2022 (World Bank, WHO, UNESCO PEER, PISA)}\label{tab:system}
+\input{tables/tab_system}
+\par\smallskip\raggedright\footnotesize Suicide rate: per 100,000, both sexes, all ages, 2021 (WHO). Across systems, distraction was not related to internet penetration ($\rho=-0.29$, $n=12$) or to the share of schools banning phones ($\rho=-0.28$, $n=13$). PEER coding with verbatim evidence: \texttt{data/raw/policy/peer\_phone\_policy\_coding.csv}.
+\end{table}
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth]{FigS1_system_scatter.pdf}
+\caption{System context: (a) internet users versus distraction; (b) internet users versus phone bans. Available systems: $n=12$ and $n=13$. Student aggregates use final weights; system points are descriptive and unweighted.}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=.9\textwidth]{FigS2_internet_trajectories.pdf}
+\caption{Internet users (\% of population), 2010--2023 (World Bank).}
+\end{figure}
+\subsection{Additional measurement, sensitivity and calibration checks}
+\input{upgrade_appendix}
+\end{document}
