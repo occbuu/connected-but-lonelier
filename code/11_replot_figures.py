@@ -13,12 +13,12 @@ from pisa_utils import NAMES
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs"
-TEX = ROOT / "latex/figures"
+TEX = (ROOT / 'latex' if (ROOT / 'latex/main.tex').exists() else ROOT / 'Paper1_PISA2022') / 'figures'
 ACCENT, GREY, INK, MUTED = "#2a6fdb", "#b4bcc6", "#1f2328", "#59636e"
 SYSTEMS = ["VNM", "SGP", "JPN", "KOR", "TAP", "HKG", "MAC", "THA", "MYS", "IDN"]
 CYCLES = [2012, 2015, 2018, 2022]
-plt.rcParams.update({"font.size": 9.5, "axes.titlesize": 10, "axes.labelsize": 9.5, "xtick.labelsize": 9,
-                     "ytick.labelsize": 9, "legend.fontsize": 9, "axes.spines.top": False, "axes.spines.right": False,
+plt.rcParams.update({"font.size": 11, "axes.titlesize": 11, "axes.labelsize": 11, "xtick.labelsize": 10.5,
+                     "ytick.labelsize": 10.5, "legend.fontsize": 10, "axes.spines.top": False, "axes.spines.right": False,
                      "axes.edgecolor": MUTED, "xtick.color": MUTED, "ytick.color": MUTED, "axes.grid": True,
                      "grid.color": "#e6e8eb", "grid.linewidth": .6})
 
@@ -47,11 +47,17 @@ for ax, (v, title) in zip(axes.flat, panels):
         g = tr1[tr1.CNT == cnt].sort_values("CYCLE").dropna(subset=[v])
         ax.plot(g.CYCLE, g[v], color=GREY, lw=1.1, marker="o", ms=3)
     g = tr1[tr1.CNT == "VNM"].sort_values("CYCLE").dropna(subset=[v])
-    ax.errorbar(g.CYCLE, g[v], yerr=1.96 * g[v + "_se"] if v + "_se" in g else None, color=ACCENT, lw=2.4,
-                marker="o", ms=5, capsize=2.5, label="Viet Nam")
+    if v in ['MATH','ESCS_SLOPE']:
+        # OECD explicitly disallows a Vietnamese 2022 performance trend comparison.
+        label='performance trend' if v=='MATH' else 'gradient comparison'
+        ax.text(.5,.52,'Viet Nam: no linked\n'+label,transform=ax.transAxes,ha='center',fontsize=10,color=ACCENT,
+                bbox=dict(facecolor='white',edgecolor='none',alpha=.9))
+    else:
+        ax.errorbar(g.CYCLE, g[v], yerr=1.96 * g[v + "_se"] if v + "_se" in g else None, color=ACCENT, lw=2.4,
+                    marker="o", ms=5, capsize=2.5, label="Viet Nam")
     ax.set_title(title, color=INK); ax.set_xticks(CYCLES)
 axes.flat[0].plot([], [], color=GREY, label="Other 9 systems")
-axes.flat[0].legend(frameon=False, loc="lower left")
+axes.flat[1].legend(frameon=False, loc="lower left")
 save(fig, "FigT1_trends_small_multiples.png")
 
 # FigT2: dumbbells, three panels stacked horizontally at print width

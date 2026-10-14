@@ -15,7 +15,7 @@ sys.path.insert(0,str(Path(__file__).parent))
 from pisa_utils import W,RW,BRR_FACTOR,weighted_mean_se,wls_brr_pv,recode
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'outputs/results_upgrade'; OUT.mkdir(exist_ok=True)
-FIG=ROOT/'latex/figures'
+FIG=(ROOT/'latex' if (ROOT/'latex/main.tex').exists() else ROOT/'Paper1_PISA2022')/'figures'
 plt.rcParams.update({'font.size':9,'axes.spines.top':False,'axes.spines.right':False})
 tr=pd.read_parquet(ROOT/'outputs/pisa_trend_2012_2022.parquet',filters=[('CNT','==','VNM')],use_threads=False)
 def save(fig,name):

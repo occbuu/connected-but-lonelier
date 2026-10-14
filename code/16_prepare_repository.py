@@ -1,16 +1,19 @@
 """Prepare a standalone publication folder; never publish or redistribute PISA microdata."""
 from pathlib import Path
 import shutil, hashlib, json, zipfile
-ROOT=Path(__file__).resolve().parents[1]; DEST=ROOT/'publish_repository'
+ROOT=Path(__file__).resolve().parents[1]
+DEST=ROOT/'connected-but-lonelier' if (ROOT/'connected-but-lonelier').exists() else ROOT/'publish_repository'
+TEX=ROOT/'latex' if (ROOT/'latex/main.tex').exists() else ROOT/'Paper1_PISA2022'
 DEST.mkdir(exist_ok=True)
 def copy(source,relative):
     target=DEST/relative; target.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(source,target)
-for name in ['requirements.txt','requirements-lock.txt','UPGRADE_REPORT.md']:
+for name in ['requirements.txt','requirements-lock.txt','UPGRADE_REPORT.md','PEER_REVIEW_RESPONSE.md']:
+    if not (ROOT/name).exists(): continue
     copy(ROOT/name,Path(name))
 for source in (ROOT/'code').glob('*.py'): copy(source,Path('code')/source.name)
-for source in (ROOT/'latex').rglob('*'):
-    if source.is_file() and not any(p.startswith('.') for p in source.relative_to(ROOT/'latex').parts) and source.suffix in ['.tex','.bib','.pdf','.png','.ps1','.bbl']:
-        copy(source,source.relative_to(ROOT))
+for source in TEX.rglob('*'):
+    if source.is_file() and not any(p.startswith('.') for p in source.relative_to(TEX).parts) and source.suffix in ['.tex','.bib','.pdf','.png','.ps1','.bbl','.md','.txt']:
+        copy(source,Path('latex')/source.relative_to(TEX))
 for directory in (ROOT/'outputs').glob('results*'):
     if directory.is_dir():
         for source in directory.glob('*'):
@@ -39,8 +42,10 @@ Small context snapshots (`raw/worldbank/`, `raw/who/`) and policy coding/evidenc
 (DEST/'data/README.md').write_text(data_readme,encoding='utf-8')
 readme=(ROOT/'README.md').read_text(encoding='utf-8')
 readme=readme.replace('paper1_PISA2022/','repository/').replace('  archive/       Bản nháp cũ\n','')
+readme=readme.replace('Paper1_PISA2022/', 'latex/').replace('`Paper1_PISA2022/`','`latex/`')
 readme=readme.replace('Thư mục `data/raw/owid_gbd/` kế thừa chỉ chứa lỗi tải 403 và không dùng trong phân tích.','Xem `data/README.md` để tải dữ liệu cá nhân từ nguồn gốc; thư mục này chỉ kèm kết quả tổng hợp và dữ liệu bối cảnh nhỏ.')
 readme=readme.replace('`publish_repository/` là thư mục độc lập để bạn push sau; không có repo URL giả và không tự đăng lên mạng.','Đây là thư mục độc lập để bạn push sau; chưa có URL công khai. Dữ liệu PISA cá nhân không kèm; xem `data/README.md`.')
+readme=readme.replace('`connected-but-lonelier/` là thư mục độc lập để bạn push sau; không có repo URL giả và không tự đăng lên mạng.','Thư mục này sẵn để push; chưa có URL công khai được xác nhận.')
 readme+='''
 ## Running only the upgrade on existing processed inputs
 
@@ -72,11 +77,11 @@ latex/.latex-cache/
 publish_repository/
 *.zip
 ''',encoding='utf-8')
-files=sorted(p for p in DEST.rglob('*') if p.is_file() and p.name!='MANIFEST_SHA256.json')
+files=sorted(p for p in DEST.rglob('*') if p.is_file() and p.name!='MANIFEST_SHA256.json' and '.git' not in p.relative_to(DEST).parts and not any(x.startswith('.') and x!='.gitignore' for x in p.relative_to(DEST).parts))
 manifest={str(p.relative_to(DEST)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
 (DEST/'MANIFEST_SHA256.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
 package=ROOT/'paper1_publish_repository.zip'
 with zipfile.ZipFile(package,'w',zipfile.ZIP_DEFLATED) as archive:
-    for source in DEST.rglob('*'):
-        if source.is_file(): archive.write(source,Path('paper1_repository')/source.relative_to(DEST))
+    for source in files+[DEST/'MANIFEST_SHA256.json']:
+        archive.write(source,Path('paper1_repository')/source.relative_to(DEST))
 print('Ready:',DEST,'files',len(files)+1,'ZIP bytes',package.stat().st_size)

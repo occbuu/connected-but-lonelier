@@ -27,6 +27,7 @@ for i,(ax,f) in enumerate(zip(axes,['DIGDIST','EASILY_DISTRACTED'])):
     ax.axhline(0,color='grey',lw=.7); ax.set_ylabel('SHAP (anxiety units)')
     ax.set_xlabel(ml.FEATURES[f]); ax.set_title(f'({chr(97+i)})')
 fig.tight_layout()
-for directory in [ROOT/'outputs/results',ROOT/'latex/figures']:
+figdir=(ROOT/'latex' if (ROOT/'latex/main.tex').exists() else ROOT/'Paper1_PISA2022')/'figures'
+for directory in [ROOT/'outputs/results',figdir]:
     for ext in ['pdf','png']: fig.savefig(directory/f'F_shap_dependence_VNM_ANXMAT.{ext}',dpi=300)
 print('SHAP regenerated',len(d),'students',d.CNTSCHID.nunique(),'schools')

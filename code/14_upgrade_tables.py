@@ -2,7 +2,8 @@
 from pathlib import Path
 import pandas as pd
 import numpy as np
-ROOT=Path(__file__).resolve().parents[1]; RES=ROOT/'outputs/results_upgrade'; TEX=ROOT/'latex'
+ROOT=Path(__file__).resolve().parents[1]; RES=ROOT/'outputs/results_upgrade'
+TEX=ROOT/'latex' if (ROOT/'latex/main.tex').exists() else ROOT/'Paper1_PISA2022'
 def read(name): return pd.read_csv(RES/name)
 def tab(cols, rows, spec=None):
     return '\\begin{tabular}{@{}'+(spec or 'l'+'r'*(len(cols)-1))+'@{}}\n\\toprule\n'+' & '.join(cols)+r'\\'+'\n\\midrule\n'+'\n'.join(' & '.join(map(str,row))+r'\\' for row in rows)+'\n\\bottomrule\n\\end{tabular}\n'
@@ -32,7 +33,9 @@ dfl=read('U3_dfl_sensitivity.csv'); assert np.allclose(dfl.change,dfl.compositio
 names={'LONELY_AGREE':'Loneliness (pp)','BELONG_RAW':'Belonging (1--4)','ANX_RAW':'Anxiety (1--4)','TENSE_AGREE':'Tension (pp)','NOISE_MOST':'Noise (pp)'}
 strategies={'untrimmed':'Untrimmed','ps_01_99':'PS .01/.99','ps_05_95':'PS .05/.95','ratio_01_99':'Ratio 1/99 pct','ratio_05_95':'Ratio 5/95 pct'}
 rows=[]
-for _,r in dfl.iterrows(): rows.append([names[r.outcome],strategies[r.strategy]]+[f'{r[c]:.3f} ({r[c+"_se"]:.3f})' for c in ['composition','access','unexplained']])
+for _,r in dfl.iterrows():
+    digits=1 if r.outcome.endswith('AGREE') or r.outcome=='NOISE_MOST' else 2
+    rows.append([names[r.outcome],strategies[r.strategy]]+[f'{r[c]:.{digits}f} ({r[c+"_se"]:.{digits}f})' for c in ['composition','access','unexplained']])
 parts.append(table('DFL sensitivity to propensity and density-ratio clipping, Viet Nam','tab:dflsens',tab(['Outcome','Weights','Composition (SE)','Access (SE)','Residual (SE)'],rows,'llrrr'),
     'Final student weights multiplied by sequential reweighting ratios. PS clips probabilities; ratio clipping winsorises the density ratio at empirical percentiles, without discarding observations. Composition: gender, grade, repetition, books; access adds computer/internet. Missing covariates form separate categories; outcomes use available cases. All 80 Fay BRR replicates are refitted separately in each independent cycle (160 fits per stage/specification); variances are summed across cycles. pp = percentage points. Residual is not a causal effect.'))
 base=dfl[dfl.strategy=='untrimmed']; rows=[]
@@ -43,7 +46,9 @@ rows=[]
 for _,r in diag.iterrows(): rows.append([strategies[r.strategy],int(r.stage),f'{r.n:,}',f'{r.ess:.0f}',f'{r.min_ps:.3f}',f'{r.max_ps:.3f}',f'{100*r.outside_05_95:.1f}'])
 parts.append(table('DFL overlap and effective sample size diagnostics, 2022 cohort','tab:overlap',tab(['Weights','Stage','$n$','ESS','Min PS','Max PS','Outside .05/.95\\%'],rows,'lrrrrrr'),'Stage 1 uses composition, stage 2 adds access. ESS is $(\\sum w)^2/\\sum w^2$ after multiplying the final student weight by the reweighting ratio, across all 6,068 students before excluding outcome missingness. PS ranges and the outside percentage refer to original estimated probabilities; the latter is an unweighted percentage. Limited overlap can inflate uncertainty even when point estimates are stable.'))
 pandemic=read('U4_pandemic_interval.csv'); rows=[]
-for _,r in pandemic.iterrows(): rows.append([f'{int(r.start)}--{int(r.end)}',names.get(r.outcome,'Belonging agreement (pp)'),f'{r.change:.3f}',f'{r.se:.3f}',f'{r.annual_change:.3f}'])
+for _,r in pandemic.iterrows():
+    digits=1 if r.outcome.endswith('AGREE') else 2
+    rows.append([f'{int(r.start)}--{int(r.end)}',names.get(r.outcome,'Belonging agreement (pp)'),f'{r.change:.{digits}f}',f'{r.se:.{digits}f}',f'{r.annual_change:.{digits}f}'])
 parts.append(table('Trends before and across the pandemic interval, Viet Nam','tab:pandemic',tab(['Interval','Outcome','Change','SE','Per year'],rows,'llrrr'),'Final student weights and all 80 BRR replicates; independent-cycle variances are summed. PISA observations are not available in 2020/2021, so interval differences cannot identify a pandemic effect. Agreement proportions use available responses; raw scale means use the harmonised scale.'))
 perm=read('U5_permutation_falsification.csv'); rows=[]
 for _,r in perm.iterrows():
@@ -66,5 +71,16 @@ for cnt in mn.columns:
 parts.append(table('Analytic samples in distraction and digital-habit figures, PISA 2022','tab:modeln',tab(['System','M1','M2','A1','A2','M4'],rows),'Unweighted complete-case student counts. M1/M2/M4 model mathematics with ten plausible values; A1/A2 model anxiety. M4 includes digital habits in the computer-based systems. Dashes indicate no model for the corresponding outcome. These counts accompany the final-weighted BRR estimates.'))
 parts.append(r'\begin{figure}[H]\centering\includegraphics[width=\textwidth]{FigU_calibration.pdf}'+'\n'+r'\caption{Out-of-fold reliability, Viet Nam, PISA 2022: (a) mathematics regression ($n=6,068$, 178 schools); (b) anxiety regression ($n=5,934$, 178 schools); (c) separate classification of mathematics below Level 2, threshold 420.07 points \citep{oecd2023vol1}. Points are final-weighted means within predicted deciles; the dashed diagonal indicates perfect calibration. Mathematics panels average all ten plausible values. No confidence bands or significance tests are implied.}\label{fig:calibration}\end{figure}'+'\n')
 parts.append(f'The separate below-Level-2 classifiers have mean weighted Brier score {math.brier.mean():.3f}, compared with {math.brier_baseline.mean():.3f} for each fold\'s training-prevalence baseline. Brier evaluates probabilities for this binary diagnostic, not the continuous regression. The predictions are retrospective associations using concurrent questionnaire data, not a validated prospective screening tool.\n')
+linkpath=RES/'U7_link_error_math.csv'
+if linkpath.exists():
+    link=read('U7_link_error_math.csv'); rows=[]
+    for _,r in link.iterrows():
+        rows.append([r.CNT]+(['--']*5 if pd.isna(r.change) else [f'{r[c]:.1f}' for c in ['change','sampling_pv_se','link_error','total_se']]+[f'[{r.ci_low:.1f}, {r.ci_high:.1f}]']))
+    parts.append(table('Mathematics 2012--2022: link-error sensitivity in comparison systems','tab:linkerror',tab(['System','Difference','Sampling/PV SE','Link error','Total SE','95\\% interval'],rows,'lrrrrr'),
+        r'Student final weights; cycle means combine BRR sampling and plausible-value uncertainty. Total SE is $\sqrt{SE_{2012}^2+SE_{2022}^2+3.58^2}$, using the mathematics link error reported in NCES technical notes, Table 3 (sourced to OECD) \citep{nces2023technical}. This is a two-cycle difference, not an all-cycle trend model. Viet Nam is excluded because OECD does not establish a reliable link with its prior performance results \citep{oecd2023vnm}; adding generic link error would not repair that problem. The adjustment does not apply to questionnaire proportions or within-cycle regressions.'))
 (TEX/'upgrade_appendix.tex').write_text('\n'.join(parts),encoding='utf-8')
+trendtable=TEX/'tables/tab_vnm_trend.tex'
+if linkpath.exists() and trendtable.exists():
+    text=trendtable.read_text(encoding='utf-8').replace('Mathematics mean &','Mathematics mean (not a linked trend) &')
+    trendtable.write_text(text,encoding='utf-8')
 print('Generated upgrade appendix; numerical identities, frequencies, convergence and PV coverage verified.')

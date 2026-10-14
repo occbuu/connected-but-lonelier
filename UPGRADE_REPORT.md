@@ -1,3 +1,5 @@
+Bản ghi nâng cấp ban đầu; đã có bản sửa tiếp theo ở PEER_REVIEW_RESPONSE.md. Các kết luận SHAP liên chu kỳ và đường toán Việt Nam được hạ/loại bỏ theo kiểm tra OECD mới, danh mục hiện là 64 nguồn và PDF ẩn danh.
+
 # Paper 1: nâng cấp bản thảo ngày 14/10/2026
 
 Các phép tính chạy trên máy local, từ dữ liệu đã trích xuất. LightGBM/SHAP và thống kê khảo sát chạy CPU (4 luồng cho mô hình), không cần gọi cloud; môi trường GPU local đã dùng cho paper 2. Không tạo dữ liệu hay kết quả giả.

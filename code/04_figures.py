@@ -20,7 +20,8 @@ plt.rcParams.update({"font.size": 9, "axes.spines.top": False, "axes.spines.righ
 
 def save(fig, name):
     fig.tight_layout()
-    for directory in [RES, ROOT / 'latex/figures']:
+    figdir=(ROOT/'latex' if (ROOT/'latex/main.tex').exists() else ROOT/'Paper1_PISA2022')/'figures'
+    for directory in [RES, figdir]:
         fig.savefig(directory / name, dpi=300)
         fig.savefig(directory / Path(name).with_suffix('.pdf'))
     plt.close(fig)

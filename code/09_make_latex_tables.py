@@ -11,7 +11,7 @@ from pisa_utils import NAMES, REGION
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs"
-TEX = ROOT / "latex"
+TEX = ROOT / 'latex' if (ROOT / 'latex/main.tex').exists() else ROOT / 'Paper1_PISA2022'
 (TEX / "tables").mkdir(parents=True, exist_ok=True)
 (TEX / "figures").mkdir(parents=True, exist_ok=True)
 NL = r" \\"

@@ -1,13 +1,13 @@
 # Paper 1 — PISA và sức khỏe tinh thần học sinh
 
-*Connected but lonelier? A decade of digital transition and adolescent well-being in Viet Nam and East/Southeast Asia, 2012–2022*
+*A decade of digital transition, educational equity and adolescent well-being: Evidence from PISA in Viet Nam and East/Southeast Asia, 2012–2022*
 
-Tạp chí mục tiêu: Computers & Education. Bản nâng cấp ngày 14/10/2026 có phân tích bổ sung và PDF đã biên dịch. Tác giả/đơn vị/email/CRediT và URL công khai cần điền trước khi nộp.
+Tạp chí mục tiêu: Computers & Education. Bản sửa theo phản biện ngày 14/10/2026 có tiêu đề trung tính, RQ1, 64 nguồn, link-error sensitivity và PDF ẩn danh. Xem `PEER_REVIEW_RESPONSE.md`. Tác giả/đơn vị/email/CRediT và URL công khai cần điền trước khi nộp.
 
 ```text
 repository/
   code/          Trích xuất, phân tích, độ vững, bảng và hình
-  latex/         main.tex, main.pdf, refs.bib, tables/, figures/
+  latex/  main.tex, main.pdf, refs.bib, tables/, figures/
   data/raw/      PISA 2012/2015/2018/2022, policy, WHO, World Bank
   outputs/       Dữ liệu xử lý và kết quả phân tích
   requirements.txt
@@ -45,9 +45,15 @@ Nguồn PISA: OECD; bản CSV 2012 tại https://s3.amazonaws.com/udacity-hosted
 - Chẩn đoán hoán vị có điều kiện và so sánh đọc hiểu; đọc hiểu có liên hệ với ICTRES, nên không được coi là negative control không liên quan công nghệ.
 - Hiệu chuẩn dự báo theo trường, tất cả 10 PV toán, Brier riêng cho phân loại toán dưới mức 2: khoảng 0,164 so với baseline 0,203. Đây là kiểm định nội bộ trên biến đồng thời, không phải công cụ dự báo sớm đã xác thực.
 - Mô tả từng item, so sánh khoảng trước/trong dịch, thảo luận cải cách chương trình/thi cử, sắp xếp H1→H2→H3/H4→H5, bổ sung đóng góp phương pháp và nghiên cứu 2024–2025.
-- 40 tài liệu được trích dẫn; 2 mục không dùng đã bỏ; DOI kiểm tra qua Crossref. Twenge có issue năm 2026 (khóa BibTeX cũ `twenge2025` được giữ). APA 7 dùng tạp chí và volume nghiêng, hanging indent 0,5 inch.
+- 64 tài liệu được trích dẫn sau phản biện (40 ở bản nâng cấp trước); 2 mục không dùng đã bỏ; DOI kiểm tra qua Crossref. Twenge có issue năm 2026 (khóa BibTeX cũ `twenge2025` được giữ). APA 7 dùng tạp chí và volume nghiêng, hanging indent 0,5 inch.
 
-Đây là thư mục độc lập để bạn push sau; chưa có URL công khai. Dữ liệu PISA cá nhân không kèm; xem `data/README.md`. Xem `UPGRADE_REPORT.md` để biết giới hạn và việc còn cần tác giả xác nhận. Không tự gán giấy phép phân phối: bạn chọn license trước khi công bố. Tuyên bố AI đã mô tả đúng trợ giúp của OpenAI Codex; cần tác giả đọc và chịu trách nhiệm trước khi nộp.
+Thư mục này sẵn để push; chưa có URL công khai được xác nhận. Xem `UPGRADE_REPORT.md` để biết giới hạn và việc còn cần tác giả xác nhận. Không tự gán giấy phép phân phối: bạn chọn license trước khi công bố. Tuyên bố AI đã mô tả đúng trợ giúp của OpenAI Codex; cần tác giả đọc và chịu trách nhiệm trước khi nộp.
+
+## Bản sửa theo phản biện
+
+Không so sánh trend điểm toán Việt Nam 2022 với chu kỳ trước theo cảnh báo OECD. SHAP liên chu kỳ chỉ là tài liệu mô hình ở phụ lục. DFL là sensitivity có hạn chế overlap, không chứng minh access không có liên hệ. PDF mặc định ẩn danh; điền author_metadata.tex/author_contributions.tex và đặt blindreviewfalse khi chuẩn bị title page. 
+
+Sau các stage cũ, nếu chạy lại hình/bảng hiện tại: chạy 17_peer_review_checks (dùng metadata cache hoặc Internet), 14_upgrade_tables rồi 11_replot_figures; 18_apply_peer_revision chỉ là script chuyển đổi một lần, không chạy lại khi đã áp dụng. Các CSV U1–U6 giữ nguyên số đo, U7 bổ sung link variance. 
 
 ## Running only the upgrade on existing processed inputs
 
