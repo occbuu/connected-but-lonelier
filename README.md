@@ -4,9 +4,9 @@
 
 ## Project overview
 
-This repository contains the complete research project for Paper 1: a study of digital access and use, educational equity, and adolescent well-being using PISA data from Viet Nam and East/Southeast Asia across the 2012–2022 cycles. It includes the analysis and reproducibility code, data documentation, processed outputs, manuscript source, figures, tables, and supporting materials for peer-review revisions.
+This repository contains the complete research project for Paper 1, which examines digital access and use, educational equity, and adolescent well-being using PISA data from Viet Nam and East/Southeast Asia across the 2012–2022 cycles. It brings together the analysis and reproducibility code, data documentation, processed outputs, manuscript source, figures, tables, and supporting materials.
 
-The target journal is *Computers & Education*. The manuscript revision prepared in response to reviewer comments on 14 October 2026 uses a neutral title and RQ1, cites 64 sources, includes link-error sensitivity analyses, and produces an anonymized PDF. See `PEER_REVIEW_RESPONSE.md` for the response to reviewers. Author names, affiliations, email addresses, CRediT contributions, and a confirmed public URL must be supplied before submission.
+The manuscript is being prepared for initial submission to *Computers & Education* and has not yet undergone peer review. The current submission version includes 64 cited sources, link-error sensitivity analyses, and an anonymized PDF. Author names, affiliations, email addresses, and CRediT contributions should be completed as required for the intended submission files.
 
 ```text
 repository/
@@ -42,22 +42,22 @@ Alternatively, run `latexmk -lualatex main.tex` from `latex/`. The build require
 
 PISA sources: OECD; the PISA 2012 CSV is available at https://s3.amazonaws.com/udacity-hosted-downloads/ud507/pisa2012.csv.zip. PISA 2015/2018/2022 data are available from https://webfs.oecd.org/. System-level indicators come from the World Bank API and WHO GHO; mobile-phone policies come from https://education-profiles.org.
 
-## Research and analysis updates
+## Study and analytical overview
 
-- Partial scalar invariance frees B1/B4/B6: CFI is 0.916, compared with 0.976 for the metric model, and scalar invariance is not achieved. The 2022 belonging difference decreases from −0.250 to −0.035 SD. The manuscript no longer makes a large latent-decline claim, and this conclusion is robust.
-- DFL sensitivity analysis uses five weight-trimming approaches and all 80 BRR replicates independently in each cycle; weight distributions and ESS are reported. Digital access has no positive contribution to the increase in loneliness under these specifications. This does not prove the absence of a causal effect.
-- Conditional permutation diagnostics and a reading-comprehension comparison are included. Reading comprehension is associated with ICTRES and therefore is not treated as a technology-unrelated negative control.
+- The measurement analysis evaluates partial scalar invariance by freeing B1/B4/B6. The resulting CFI is 0.916, compared with 0.976 for the metric model; scalar invariance is not achieved. The estimated 2022 belonging difference is −0.035 SD, compared with −0.250 SD under the more restrictive specification.
+- DFL sensitivity analysis uses five weight-trimming approaches and all 80 BRR replicates independently in each cycle; weight distributions and effective sample sizes (ESS) are reported. Under these specifications, digital access does not make a positive contribution to the increase in loneliness. This decomposition is not evidence that digital access has no causal effect.
+- Conditional permutation diagnostics and a reading-comprehension comparison are included. Because reading comprehension is associated with ICTRES, it is not treated as a technology-unrelated negative control.
 - Prediction is calibrated by school using all 10 plausible values for mathematics. The Brier score for classifying below-Level-2 mathematics performance is approximately 0.164, compared with a baseline of 0.203. This is an internal evaluation using concurrent variables, not a validated early-warning prediction tool.
-- The manuscript adds item-level descriptions, comparisons of pre-pandemic and pandemic-period intervals, discussion of curriculum and examination reforms, a reordered H1→H2→H3/H4→H5 structure, methodological contributions, and research published in 2024–2025.
-- The post-review manuscript cites 64 sources (up from 40 in the earlier upgraded version); two unused references were removed, and DOIs were checked through Crossref. Twenge has a 2026 issue (the existing BibTeX key `twenge2025` is retained). APA 7 formatting uses italics for journal titles and volume numbers and a 0.5-inch hanging indent.
+- The manuscript covers item-level descriptions, comparisons of pre-pandemic and pandemic-period intervals, curriculum and examination reforms, the H1→H2→H3/H4→H5 hypothesis structure, methodological contributions, and relevant research published in 2024–2025.
+- The reference list contains 64 cited sources. DOIs were checked through Crossref. Twenge has a 2026 issue (the existing BibTeX key `twenge2025` is retained). APA 7 formatting uses italics for journal titles and volume numbers and a 0.5-inch hanging indent.
 
-This folder is ready to push, but no public URL has been confirmed. See `UPGRADE_REPORT.md` for limitations and items requiring author confirmation. Do not assign a distribution license without choosing one first. The AI declaration accurately describes assistance from OpenAI Codex; the authors must review it and take responsibility before submission.
+See `UPGRADE_REPORT.md` for analytical limitations and items requiring author confirmation. Do not assign a distribution license without choosing one first. The authors should review the AI declaration and take responsibility for its accuracy before submission.
 
-## Peer-review revision
+## Submission preparation
 
-Do not compare Viet Nam's 2022 mathematics trend score with earlier cycles, in accordance with the OECD warning. Cross-cycle SHAP results are included only as supplementary model documentation. DFL is a sensitivity analysis with overlap limitations; it does not establish that access is unrelated. The default PDF is anonymized. Fill in `author_metadata.tex` and `author_contributions.tex`, and set `blindreviewfalse` when preparing the title page.
+Do not compare Viet Nam's 2022 mathematics trend score with earlier cycles, in accordance with the OECD warning. Cross-cycle SHAP results are included only as supplementary model documentation. Interpret the DFL results as sensitivity analyses subject to overlap limitations, not as evidence that access is unrelated to loneliness. The default PDF is anonymized. Fill in `author_metadata.tex` and `author_contributions.tex`, and set `blindreviewfalse` when preparing a non-anonymized title page.
 
-To regenerate the current figures and tables after the earlier stages, run `17_peer_review_checks` (uses a metadata cache or the Internet), then `14_upgrade_tables`, then `11_replot_figures`. `18_apply_peer_revision` is a one-time conversion script; do not rerun it after it has been applied. CSV outputs U1–U6 retain the existing measures; U7 adds link variance.
+To regenerate the current figures and tables after the earlier stages, run `17_peer_review_checks` (uses a metadata cache or the Internet), then `14_upgrade_tables`, then `11_replot_figures`. `18_apply_peer_revision` is a legacy, one-time manuscript-conversion helper; do not rerun it if it has already been applied. CSV outputs U1–U6 retain the existing measures; U7 adds link variance.
 
 ## Running only the upgrade on existing processed inputs
 
@@ -67,4 +67,4 @@ All computations execute locally. These survey/LightGBM analyses use CPU, with f
 
 ## Before public release
 
-Fill in author, affiliation, email, and CRediT fields; choose a code license; and review the AI declaration and policy-coding evidence. Then push this folder to your chosen repository. Add the resulting URL (and any Zenodo DOI) to `latex/main.tex` under Data and code availability, then rebuild the manuscript. No placeholder is presented as a working URL. Data-provider terms apply separately. Package SHA256 checksums are in `MANIFEST_SHA256.json`.
+Complete the author, affiliation, email, and CRediT fields in the appropriate submission files; choose a code license; and review the AI declaration and policy-coding evidence. Before making the repository public, add its confirmed URL (and any Zenodo DOI) to `latex/main.tex` under Data and code availability, then rebuild the manuscript. No placeholder is presented as a working URL. Data-provider terms apply separately. Package SHA256 checksums are in `MANIFEST_SHA256.json`.
