@@ -1,21 +1,25 @@
-# Paper 1 — PISA và sức khỏe tinh thần học sinh
+# Paper 1 — PISA and Student Well-Being
 
 *A decade of digital transition, educational equity and adolescent well-being: Evidence from PISA in Viet Nam and East/Southeast Asia, 2012–2022*
 
-Tạp chí mục tiêu: Computers & Education. Bản sửa theo phản biện ngày 14/10/2026 có tiêu đề trung tính, RQ1, 64 nguồn, link-error sensitivity và PDF ẩn danh. Xem `PEER_REVIEW_RESPONSE.md`. Tác giả/đơn vị/email/CRediT và URL công khai cần điền trước khi nộp.
+## Project overview
+
+This repository contains the complete research project for Paper 1: a study of digital access and use, educational equity, and adolescent well-being using PISA data from Viet Nam and East/Southeast Asia across the 2012–2022 cycles. It includes the analysis and reproducibility code, data documentation, processed outputs, manuscript source, figures, tables, and supporting materials for peer-review revisions.
+
+The target journal is *Computers & Education*. The manuscript revision prepared in response to reviewer comments on 14 October 2026 uses a neutral title and RQ1, cites 64 sources, includes link-error sensitivity analyses, and produces an anonymized PDF. See `PEER_REVIEW_RESPONSE.md` for the response to reviewers. Author names, affiliations, email addresses, CRediT contributions, and a confirmed public URL must be supplied before submission.
 
 ```text
 repository/
-  code/          Trích xuất, phân tích, độ vững, bảng và hình
-  latex/  main.tex, main.pdf, refs.bib, tables/, figures/
+  code/          Extraction, analysis, robustness checks, tables, and figures
+  latex/         main.tex, main.pdf, refs.bib, tables/, figures/
   data/raw/      PISA 2012/2015/2018/2022, policy, WHO, World Bank
-  outputs/       Dữ liệu xử lý và kết quả phân tích
+  outputs/       Processed data and analysis results
   requirements.txt
 ```
 
-## Chạy lại
+## Reproducing the analysis
 
-Mở terminal trong thư mục paper này, tạo môi trường riêng khi cần:
+Open a terminal in this paper's directory. Create a dedicated environment if needed:
 
 ```powershell
 python -m venv .venv
@@ -26,41 +30,41 @@ foreach ($script in @('01_extract','02_survey_analysis','03_ml_shap','04_figures
 }
 ```
 
-Các script tự tìm `data/`, `outputs/`, `latex/` trong paper này, không cần dữ liệu paper 2. Xem `data/README.md` để tải dữ liệu cá nhân từ nguồn gốc; thư mục này chỉ kèm kết quả tổng hợp và dữ liệu bối cảnh nhỏ.
+The scripts locate `data/`, `outputs/`, and `latex/` within this paper's directory and do not require data from Paper 2. See `data/README.md` for instructions on obtaining restricted data from the original sources. This repository includes only aggregate results and a small amount of contextual data.
 
-## Biên dịch
+## Building the manuscript
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File latex/build_pdf.ps1
 ```
 
-Hoặc chạy `latexmk -lualatex main.tex` trong `latex/`; cần Biber/biblatex-apa và elsarticle. Trên Overleaf chọn LuaLaTeX. `\vietnamesetrue` giữ tóm tắt Việt, `\vietnamesefalse` dành cho bản tiếng Anh. `figures/framework.tex` là nguồn vector TikZ; helper biên dịch PDF riêng khi cần. PNG xuất 300 dpi, các hình trong bản thảo dùng PDF.
+Alternatively, run `latexmk -lualatex main.tex` from `latex/`. The build requires Biber/biblatex-apa and elsarticle. Select LuaLaTeX on Overleaf. Set `\vietnamesetrue` to include the Vietnamese abstract, or `\vietnamesefalse` for the English version. `figures/framework.tex` is the TikZ vector source; its helper can compile a standalone PDF when needed. Figures are exported at 300 dpi as PNG, while the manuscript uses PDF figures.
 
-Nguồn PISA: OECD; bản CSV 2012 tại https://s3.amazonaws.com/udacity-hosted-downloads/ud507/pisa2012.csv.zip. PISA 2015/2018/2022 từ https://webfs.oecd.org/. Chỉ số hệ thống từ World Bank API và WHO GHO; chính sách điện thoại từ https://education-profiles.org.
+PISA sources: OECD; the PISA 2012 CSV is available at https://s3.amazonaws.com/udacity-hosted-downloads/ud507/pisa2012.csv.zip. PISA 2015/2018/2022 data are available from https://webfs.oecd.org/. System-level indicators come from the World Bank API and WHO GHO; mobile-phone policies come from https://education-profiles.org.
 
-## Kết quả nâng cấp
+## Research and analysis updates
 
-- Partial scalar giải phóng B1/B4/B6: CFI 0,916 so với metric 0,976, chưa đạt bất biến; chênh lệch belonging 2022 giảm từ −0,250 xuống −0,035 SD. Bản thảo đã bỏ kết luận suy giảm tiềm ẩn lớn và vững.
-- DFL: năm cách cắt trọng số, đầy đủ 80 BRR ở mỗi chu kỳ độc lập; phân bố trọng số và ESS được báo cáo. Tiếp cận số không nhận phần đóng góp dương vào mức tăng cô đơn trong các đặc tả này; đây không phải chứng minh không có tác động nhân quả.
-- Chẩn đoán hoán vị có điều kiện và so sánh đọc hiểu; đọc hiểu có liên hệ với ICTRES, nên không được coi là negative control không liên quan công nghệ.
-- Hiệu chuẩn dự báo theo trường, tất cả 10 PV toán, Brier riêng cho phân loại toán dưới mức 2: khoảng 0,164 so với baseline 0,203. Đây là kiểm định nội bộ trên biến đồng thời, không phải công cụ dự báo sớm đã xác thực.
-- Mô tả từng item, so sánh khoảng trước/trong dịch, thảo luận cải cách chương trình/thi cử, sắp xếp H1→H2→H3/H4→H5, bổ sung đóng góp phương pháp và nghiên cứu 2024–2025.
-- 64 tài liệu được trích dẫn sau phản biện (40 ở bản nâng cấp trước); 2 mục không dùng đã bỏ; DOI kiểm tra qua Crossref. Twenge có issue năm 2026 (khóa BibTeX cũ `twenge2025` được giữ). APA 7 dùng tạp chí và volume nghiêng, hanging indent 0,5 inch.
+- Partial scalar invariance frees B1/B4/B6: CFI is 0.916, compared with 0.976 for the metric model, and scalar invariance is not achieved. The 2022 belonging difference decreases from −0.250 to −0.035 SD. The manuscript no longer makes a large latent-decline claim, and this conclusion is robust.
+- DFL sensitivity analysis uses five weight-trimming approaches and all 80 BRR replicates independently in each cycle; weight distributions and ESS are reported. Digital access has no positive contribution to the increase in loneliness under these specifications. This does not prove the absence of a causal effect.
+- Conditional permutation diagnostics and a reading-comprehension comparison are included. Reading comprehension is associated with ICTRES and therefore is not treated as a technology-unrelated negative control.
+- Prediction is calibrated by school using all 10 plausible values for mathematics. The Brier score for classifying below-Level-2 mathematics performance is approximately 0.164, compared with a baseline of 0.203. This is an internal evaluation using concurrent variables, not a validated early-warning prediction tool.
+- The manuscript adds item-level descriptions, comparisons of pre-pandemic and pandemic-period intervals, discussion of curriculum and examination reforms, a reordered H1→H2→H3/H4→H5 structure, methodological contributions, and research published in 2024–2025.
+- The post-review manuscript cites 64 sources (up from 40 in the earlier upgraded version); two unused references were removed, and DOIs were checked through Crossref. Twenge has a 2026 issue (the existing BibTeX key `twenge2025` is retained). APA 7 formatting uses italics for journal titles and volume numbers and a 0.5-inch hanging indent.
 
-Thư mục này sẵn để push; chưa có URL công khai được xác nhận. Xem `UPGRADE_REPORT.md` để biết giới hạn và việc còn cần tác giả xác nhận. Không tự gán giấy phép phân phối: bạn chọn license trước khi công bố. Tuyên bố AI đã mô tả đúng trợ giúp của OpenAI Codex; cần tác giả đọc và chịu trách nhiệm trước khi nộp.
+This folder is ready to push, but no public URL has been confirmed. See `UPGRADE_REPORT.md` for limitations and items requiring author confirmation. Do not assign a distribution license without choosing one first. The AI declaration accurately describes assistance from OpenAI Codex; the authors must review it and take responsibility before submission.
 
-## Bản sửa theo phản biện
+## Peer-review revision
 
-Không so sánh trend điểm toán Việt Nam 2022 với chu kỳ trước theo cảnh báo OECD. SHAP liên chu kỳ chỉ là tài liệu mô hình ở phụ lục. DFL là sensitivity có hạn chế overlap, không chứng minh access không có liên hệ. PDF mặc định ẩn danh; điền author_metadata.tex/author_contributions.tex và đặt blindreviewfalse khi chuẩn bị title page. 
+Do not compare Viet Nam's 2022 mathematics trend score with earlier cycles, in accordance with the OECD warning. Cross-cycle SHAP results are included only as supplementary model documentation. DFL is a sensitivity analysis with overlap limitations; it does not establish that access is unrelated. The default PDF is anonymized. Fill in `author_metadata.tex` and `author_contributions.tex`, and set `blindreviewfalse` when preparing the title page.
 
-Sau các stage cũ, nếu chạy lại hình/bảng hiện tại: chạy 17_peer_review_checks (dùng metadata cache hoặc Internet), 14_upgrade_tables rồi 11_replot_figures; 18_apply_peer_revision chỉ là script chuyển đổi một lần, không chạy lại khi đã áp dụng. Các CSV U1–U6 giữ nguyên số đo, U7 bổ sung link variance. 
+To regenerate the current figures and tables after the earlier stages, run `17_peer_review_checks` (uses a metadata cache or the Internet), then `14_upgrade_tables`, then `11_replot_figures`. `18_apply_peer_revision` is a one-time conversion script; do not rerun it after it has been applied. CSV outputs U1–U6 retain the existing measures; U7 adds link variance.
 
 ## Running only the upgrade on existing processed inputs
 
 Place `pisa_trend_2012_2022.parquet` and `pisa22_analysis.parquet` in `outputs/` (generated by extraction), then run `12_upgrade_analysis.py`, `14_upgrade_tables.py` and `15_print_shap.py`. `--calibration-only` resumes only the reading/calibration stage. The full sequence above ensures that older tables are generated **before** the upgrade tables, so the updated DFL table is not overwritten. `13_reference_audit.py` is an optional online metadata audit; saved publisher records accompany the current manuscript.
 
-All computations execute locally. These survey/LightGBM analyses use CPU, with four threads for the upgrade; they do not require GPU. Code does not publish anything. `16_prepare_repository.py` is the packaging helper and is not part of the analysis sequence.
+All computations execute locally. These survey/LightGBM analyses use CPU, with four threads for the upgrade; they do not require a GPU. The code does not publish anything. `16_prepare_repository.py` is the packaging helper and is not part of the analysis sequence.
 
 ## Before public release
 
-Fill author/affiliation/email/CRediT fields, choose a code license, review the AI declaration and policy coding evidence, then push this folder to your chosen repository. Add the resulting URL (and any Zenodo DOI) to `latex/main.tex` under Data and code availability and rebuild. No placeholder is presented as a working URL. Data-provider terms apply separately. Package SHA256 checksums are in `MANIFEST_SHA256.json`.
+Fill in author, affiliation, email, and CRediT fields; choose a code license; and review the AI declaration and policy-coding evidence. Then push this folder to your chosen repository. Add the resulting URL (and any Zenodo DOI) to `latex/main.tex` under Data and code availability, then rebuild the manuscript. No placeholder is presented as a working URL. Data-provider terms apply separately. Package SHA256 checksums are in `MANIFEST_SHA256.json`.
